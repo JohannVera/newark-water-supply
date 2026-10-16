@@ -1,0 +1,24 @@
+{
+  "watershed_area_km2": 15.045681778636613,
+  "watershed_area_sqmi": 5.809170211474343,
+  "published_usgs_area_sqmi": 6.08,
+  "basin_sites": 3,
+  "buffer_only_sites": 2,
+  "total_sites": 5,
+  "buffer_km": 2.0,
+  "crs": "EPSG:32618",
+  "method": "USGS NLDI unsimplified upstream basin for USGS-01382100; not a new DEM delineation",
+  "scope": "All NWIS site types, all statuses, no parameter filter; exact polygon intersection after bounding-box query",
+  "sources": [
+    {
+      "url": "https://api.water.usgs.gov/nldi/linked-data/nwissite/USGS-01382100/basin?simplified=false",
+      "retrieved_utc": "2026-10-15T16:32:18.982886+00:00",
+      "file": "nldi_basin.geojson"
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&bBox=-74.5188916%2C41.0858541%2C-74.4213251%2C41.1800174&siteStatus=all&siteOutput=expanded",
+      "retrieved_utc": "2026-10-15T16:32:20.194523+00:00",
+      "file": "nwis_sites.rdb"
+    }
+  ]
+}

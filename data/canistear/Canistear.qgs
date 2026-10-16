@@ -1,0 +1,2843 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="Canistear Reservoir contributing watershed and all USGS sites" saveUserFull="CodexSandboxOnline" saveUser="CodexSandboxOnline" saveDateTime="2026-10-15T12:32:21" version="3.44.1-Solothurn">
+  <homePath path=""/>
+  <title>Canistear Reservoir contributing watershed and all USGS sites</title>
+  <transaction mode="Disabled"/>
+  <projectFlags set=""/>
+  <projectCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+      <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+      <srsid>3102</srsid>
+      <srid>32618</srid>
+      <authid>EPSG:32618</authid>
+      <description>WGS 84 / UTM zone 18N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <verticalCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </verticalCrs>
+  <elevation-shading-renderer light-azimuth="315" edl-distance="0.5" hillshading-z-factor="1" hillshading-is-multidirectional="0" edl-strength="1000" light-altitude="45" is-active="0" edl-is-active="1" combined-method="0" edl-distance-unit="0" hillshading-is-active="0"/>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer checked="Qt::Checked" name="USGS in basin (3)" providerKey="ogr" id="USGS_in_basin__3__c9fb2ceb_a034_439b_848f_ed581ed97bd8" source="./Canistear.gpkg|layername=sites_in_basin" expanded="1" patch_size="-1,-1" legend_split_behavior="0" legend_exp="">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" name="USGS buffer only (2)" providerKey="ogr" id="USGS_buffer_only__2__010f7d6b_164d_4690_8195_4b1f8ce70786" source="./Canistear.gpkg|layername=sites_buffer_only" expanded="1" patch_size="-1,-1" legend_split_behavior="0" legend_exp="">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" name="Canistear Reservoir contributing watershed" providerKey="ogr" id="Canistear_Reservoir_contributing_watershed_bef2e661_4122_4cc1_9fdf_d1460fbae152" source="./Canistear.gpkg|layername=watershed" expanded="1" patch_size="-1,-1" legend_split_behavior="0" legend_exp="">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" name="2 km search buffer" providerKey="ogr" id="2_km_search_buffer_411e791c_31a9_4ff5_9d88_c87dd1e16b89" source="./Canistear.gpkg|layername=search_buffer" expanded="1" patch_size="-1,-1" legend_split_behavior="0" legend_exp="">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" name="Esri World Street Map (internet required)" providerKey="wms" id="Esri_World_Street_Map__internet_required__70d0e222_0c1f_4856_b06d_6fea8343b8a6" source="type=xyz&amp;url=https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" expanded="1" patch_size="-1,-1" legend_split_behavior="0" legend_exp="">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>Esri_World_Street_Map__internet_required__70d0e222_0c1f_4856_b06d_6fea8343b8a6</item>
+      <item>2_km_search_buffer_411e791c_31a9_4ff5_9d88_c87dd1e16b89</item>
+      <item>Canistear_Reservoir_contributing_watershed_bef2e661_4122_4cc1_9fdf_d1460fbae152</item>
+      <item>USGS_buffer_only__2__010f7d6b_164d_4690_8195_4b1f8ce70786</item>
+      <item>USGS_in_basin__3__c9fb2ceb_a034_439b_848f_ed581ed97bd8</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" tolerance="12" maxScale="0" type="1" self-snapping="0" minScale="0" enabled="0" mode="2" unit="1" scaleDependencyMode="0">
+    <individual-layer-settings>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="2_km_search_buffer_411e791c_31a9_4ff5_9d88_c87dd1e16b89" minScale="0" enabled="1"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="USGS_in_basin__3__c9fb2ceb_a034_439b_848f_ed581ed97bd8" minScale="0" enabled="1"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="Canistear_Reservoir_contributing_watershed_bef2e661_4122_4cc1_9fdf_d1460fbae152" minScale="0" enabled="1"/>
+      <layer-setting tolerance="12" maxScale="0" units="1" type="1" id="USGS_buffer_only__2__010f7d6b_164d_4690_8195_4b1f8ce70786" minScale="0" enabled="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <main-annotation-layer styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" legendPlaceholderImage="" type="annotation" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled">
+    <id>Annotations_13aa6513_505d_43f0_be09_3b2b0a1c4b28</id>
+    <datasource></datasource>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+        <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3102</srsid>
+        <srid>32618</srid>
+        <authid>EPSG:32618</authid>
+        <description>WGS 84 / UTM zone 18N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <dates/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+      <Private>0</Private>
+    </flags>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer geometry="Polygon" symbologyReferenceScale="-1" labelsEnabled="0" legendPlaceholderImage="" simplifyMaxScale="1" type="vector" wkbType="Polygon" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyAlgorithm="0" autoRefreshMode="Disabled" minScale="100000000" refreshOnNotifyEnabled="0" readOnly="0" maxScale="0" simplifyLocal="1" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>540387.63778517197351903</xmin>
+        <ymin>4548416.22035146970301867</ymin>
+        <xmax>548553.50685413903556764</xmax>
+        <ymax>4558885.84786717966198921</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-74.51915040875606167</xmin>
+        <ymin>41.08556132584438103</ymin>
+        <xmax>-74.42110460882251743</xmax>
+        <ymax>41.1803154274925447</ymax>
+      </wgs84extent>
+      <id>2_km_search_buffer_411e791c_31a9_4ff5_9d88_c87dd1e16b89</id>
+      <datasource>./Canistear.gpkg|layername=search_buffer</datasource>
+      <layername>2 km search buffer</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+          <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3102</srsid>
+          <srid>32618</srid>
+          <authid>EPSG:32618</authid>
+          <description>WGS 84 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+            <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+            <srsid>3102</srsid>
+            <srid>32618</srid>
+            <authid>EPSG:32618</authid>
+            <description>WGS 84 / UTM zone 18N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startField="" endField="" limitMode="0" startExpression="" accumulate="0" durationUnit="min" endExpression="" fixedDuration="0" enabled="0" durationField="" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation clamping="Terrain" respectLayerSymbol="1" zoffset="0" extrusionEnabled="0" showMarkerSymbolInSurfacePlots="0" symbology="Line" type="IndividualFeatures" zscale="1" binding="Centroid" extrusion="0" customToleranceEnabled="1">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" type="line" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{3524a2ce-ece0-484f-bd60-ad37e3fe42b3}" enabled="1" pass="0" class="SimpleLine">
+              <Option type="Map">
+                <Option name="align_dash_pattern" type="QString" value="0"/>
+                <Option name="capstyle" type="QString" value="square"/>
+                <Option name="customdash" type="QString" value="5;2"/>
+                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="customdash_unit" type="QString" value="MM"/>
+                <Option name="dash_pattern_offset" type="QString" value="0"/>
+                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                <Option name="draw_inside_polygon" type="QString" value="0"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="line_color" type="QString" value="1,197,164,255,hsv:0.47222222222222221,0.99607843137254903,0.77254901960784317,1"/>
+                <Option name="line_style" type="QString" value="solid"/>
+                <Option name="line_width" type="QString" value="0.6"/>
+                <Option name="line_width_unit" type="QString" value="MM"/>
+                <Option name="offset" type="QString" value="0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="ring_filter" type="QString" value="0"/>
+                <Option name="trim_distance_end" type="QString" value="0"/>
+                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                <Option name="trim_distance_start" type="QString" value="0"/>
+                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                <Option name="use_custom_dash" type="QString" value="0"/>
+                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" type="fill" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{f04f3be0-2701-4ea6-9f05-b8bd75c3cb41}" enabled="1" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="1,197,164,255,hsv:0.47222222222222221,0.99607843137254903,0.77254901960784317,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="1,141,117,255,hsv:0.47222222222222221,0.99607843137254903,0.55181200885023274,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol name="" type="marker" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{2706feb6-fd9a-470e-9c28-96a829d2fcf5}" enabled="1" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="1,197,164,255,hsv:0.47222222222222221,0.99607843137254903,0.77254901960784317,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="diamond"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="1,141,117,255,hsv:0.47222222222222221,0.99607843137254903,0.55181200885023274,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="3"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" referencescale="-1" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="fill" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{44811bed-1530-4870-83e2-f1a0b4b3efdb}" enabled="1" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="110,180,235,45,rgb:0.4313725,0.7058824,0.9215686,0.1764706"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="50,110,190,255,rgb:0.1960784,0.4313725,0.745098,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.6"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="area_km2" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="area_sqmi" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="fid"/>
+        <alias name="" index="1" field="name"/>
+        <alias name="" index="2" field="area_km2"/>
+        <alias name="" index="3" field="area_sqmi"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" field="fid" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+        <default applyOnUpdate="0" field="area_km2" expression=""/>
+        <default applyOnUpdate="0" field="area_sqmi" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" unique_strength="1" constraints="3" field="fid" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="name" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="area_km2" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="area_sqmi" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="fid"/>
+        <constraint exp="" desc="" field="name"/>
+        <constraint exp="" desc="" field="area_km2"/>
+        <constraint exp="" desc="" field="area_sqmi"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" symbologyReferenceScale="-1" labelsEnabled="0" legendPlaceholderImage="" simplifyMaxScale="1" type="vector" wkbType="Polygon" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyAlgorithm="0" autoRefreshMode="Disabled" minScale="100000000" refreshOnNotifyEnabled="0" readOnly="0" maxScale="0" simplifyLocal="1" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>542385.24836491898167878</xmin>
+        <ymin>4550415.21020045969635248</ymin>
+        <xmax>546554.41083958302624524</xmax>
+        <ymax>4556887.31109654996544123</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-74.49523017858167862</xmin>
+        <ymin>41.10368450498087611</ymin>
+        <xmax>-74.44509032506022095</xmax>
+        <ymax>41.16221133121775466</ymax>
+      </wgs84extent>
+      <id>Canistear_Reservoir_contributing_watershed_bef2e661_4122_4cc1_9fdf_d1460fbae152</id>
+      <datasource>./Canistear.gpkg|layername=watershed</datasource>
+      <layername>Canistear Reservoir contributing watershed</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+          <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3102</srsid>
+          <srid>32618</srid>
+          <authid>EPSG:32618</authid>
+          <description>WGS 84 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+            <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+            <srsid>3102</srsid>
+            <srid>32618</srid>
+            <authid>EPSG:32618</authid>
+            <description>WGS 84 / UTM zone 18N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startField="" endField="" limitMode="0" startExpression="" accumulate="0" durationUnit="min" endExpression="" fixedDuration="0" enabled="0" durationField="" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation clamping="Terrain" respectLayerSymbol="1" zoffset="0" extrusionEnabled="0" showMarkerSymbolInSurfacePlots="0" symbology="Line" type="IndividualFeatures" zscale="1" binding="Centroid" extrusion="0" customToleranceEnabled="1">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" type="line" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{a5285eb0-e9ad-4d1c-b684-7ed84378ebdb}" enabled="1" pass="0" class="SimpleLine">
+              <Option type="Map">
+                <Option name="align_dash_pattern" type="QString" value="0"/>
+                <Option name="capstyle" type="QString" value="square"/>
+                <Option name="customdash" type="QString" value="5;2"/>
+                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="customdash_unit" type="QString" value="MM"/>
+                <Option name="dash_pattern_offset" type="QString" value="0"/>
+                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                <Option name="draw_inside_polygon" type="QString" value="0"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="line_color" type="QString" value="183,142,203,255,hsv:0.77777777777777779,0.30196078431372547,0.79607843137254897,1"/>
+                <Option name="line_style" type="QString" value="solid"/>
+                <Option name="line_width" type="QString" value="0.6"/>
+                <Option name="line_width_unit" type="QString" value="MM"/>
+                <Option name="offset" type="QString" value="0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="ring_filter" type="QString" value="0"/>
+                <Option name="trim_distance_end" type="QString" value="0"/>
+                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                <Option name="trim_distance_start" type="QString" value="0"/>
+                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                <Option name="use_custom_dash" type="QString" value="0"/>
+                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" type="fill" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{ca98ccc9-7e02-432d-9acd-6f1b4f1000a9}" enabled="1" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="183,142,203,255,hsv:0.77777777777777779,0.30196078431372547,0.79607843137254897,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="130,101,145,255,hsv:0.77777777777777779,0.30196078431372547,0.56862745098039214,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol name="" type="marker" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{339c2dd7-78f5-4ebc-8e40-470159c95b5d}" enabled="1" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="183,142,203,255,hsv:0.77777777777777779,0.30196078431372547,0.79607843137254897,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="diamond"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="130,101,145,255,hsv:0.77777777777777779,0.30196078431372547,0.56862745098039214,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="3"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" referencescale="-1" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="fill" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{8912ebb0-53ec-4f8c-978c-bf4b469c066c}" enabled="1" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="30,65,145,95,rgb:0.1176471,0.254902,0.5686275,0.372549"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="20,50,125,255,rgb:0.0784314,0.1960784,0.4901961,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.6"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="area_km2" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="area_sqmi" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="fid"/>
+        <alias name="" index="1" field="name"/>
+        <alias name="" index="2" field="area_km2"/>
+        <alias name="" index="3" field="area_sqmi"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" field="fid" expression=""/>
+        <default applyOnUpdate="0" field="name" expression=""/>
+        <default applyOnUpdate="0" field="area_km2" expression=""/>
+        <default applyOnUpdate="0" field="area_sqmi" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" unique_strength="1" constraints="3" field="fid" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="name" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="area_km2" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="area_sqmi" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="fid"/>
+        <constraint exp="" desc="" field="name"/>
+        <constraint exp="" desc="" field="area_km2"/>
+        <constraint exp="" desc="" field="area_sqmi"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" autoRefreshTime="0" maxScale="0" legendPlaceholderImage="" type="raster" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshMode="Disabled">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278924763202667</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924763202667</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-180</xmin>
+        <ymin>-85.05112877980660357</ymin>
+        <xmax>180</xmax>
+        <ymax>85.05112877980660357</ymax>
+      </wgs84extent>
+      <id>Esri_World_Street_Map__internet_required__70d0e222_0c1f_4856_b06d_6fea8343b8a6</id>
+      <datasource>type=xyz&amp;url=https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D</datasource>
+      <layername>Esri World Street Map (internet required)</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" bandNumber="1" enabled="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation zoffset="0" band="1" symbology="Line" zscale="1" enabled="0" mode="RepresentsElevationSurface">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" type="line" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{512a9e44-6bb6-42c7-9b3d-fa352c411221}" enabled="1" pass="0" class="SimpleLine">
+              <Option type="Map">
+                <Option name="align_dash_pattern" type="QString" value="0"/>
+                <Option name="capstyle" type="QString" value="square"/>
+                <Option name="customdash" type="QString" value="5;2"/>
+                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="customdash_unit" type="QString" value="MM"/>
+                <Option name="dash_pattern_offset" type="QString" value="0"/>
+                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                <Option name="draw_inside_polygon" type="QString" value="0"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="line_color" type="QString" value="199,166,75,255,hsv:0.12222222222222222,0.62352941176470589,0.7803921568627451,1"/>
+                <Option name="line_style" type="QString" value="solid"/>
+                <Option name="line_width" type="QString" value="0.6"/>
+                <Option name="line_width_unit" type="QString" value="MM"/>
+                <Option name="offset" type="QString" value="0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="ring_filter" type="QString" value="0"/>
+                <Option name="trim_distance_end" type="QString" value="0"/>
+                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                <Option name="trim_distance_start" type="QString" value="0"/>
+                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                <Option name="use_custom_dash" type="QString" value="0"/>
+                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" type="fill" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{45237653-c5db-4aef-a471-28c61a991636}" enabled="1" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="199,166,75,255,hsv:0.12222222222222222,0.62352941176470589,0.7803921568627451,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+                <Option name="outline_style" type="QString" value="no"/>
+                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+      </elevation>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" type="QString" value="Undefined"/>
+        </Option>
+      </customproperties>
+      <mapTip enabled="1"></mapTip>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" type="QString" value=""/>
+          <Option name="properties"/>
+          <Option name="type" type="QString" value="collection"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling zoomedInResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer band="1" type="singlebandcolordata" alphaBand="-1" opacity="1" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
+        <huesaturation invertColors="0" colorizeBlue="128" colorizeStrength="100" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" saturation="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer geometry="Point" symbologyReferenceScale="-1" labelsEnabled="0" legendPlaceholderImage="" simplifyMaxScale="1" type="vector" wkbType="Point" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyAlgorithm="0" autoRefreshMode="Disabled" minScale="100000000" refreshOnNotifyEnabled="0" readOnly="0" maxScale="0" simplifyLocal="1" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>540834.76407615700736642</xmin>
+        <ymin>4551668.09328482020646334</ymin>
+        <xmax>548438.12353116401936859</xmax>
+        <ymax>4556879.90190732013434172</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-74.51361110999999937</xmin>
+        <ymin>41.11485985941498456</ymin>
+        <xmax>-74.42263889000000177</xmax>
+        <ymax>41.16222416771920933</ymax>
+      </wgs84extent>
+      <id>USGS_buffer_only__2__010f7d6b_164d_4690_8195_4b1f8ce70786</id>
+      <datasource>./Canistear.gpkg|layername=sites_buffer_only</datasource>
+      <layername>USGS buffer only (2)</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+          <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3102</srsid>
+          <srid>32618</srid>
+          <authid>EPSG:32618</authid>
+          <description>WGS 84 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+            <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+            <srsid>3102</srsid>
+            <srid>32618</srid>
+            <authid>EPSG:32618</authid>
+            <description>WGS 84 / UTM zone 18N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startField="" endField="" limitMode="0" startExpression="" accumulate="0" durationUnit="min" endExpression="" fixedDuration="0" enabled="0" durationField="" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation clamping="Terrain" respectLayerSymbol="1" zoffset="0" extrusionEnabled="0" showMarkerSymbolInSurfacePlots="0" symbology="Line" type="IndividualFeatures" zscale="1" binding="Centroid" extrusion="0" customToleranceEnabled="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" type="line" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{d1cf50d5-a468-47b0-b645-3c8c8eed8801}" enabled="1" pass="0" class="SimpleLine">
+              <Option type="Map">
+                <Option name="align_dash_pattern" type="QString" value="0"/>
+                <Option name="capstyle" type="QString" value="square"/>
+                <Option name="customdash" type="QString" value="5;2"/>
+                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="customdash_unit" type="QString" value="MM"/>
+                <Option name="dash_pattern_offset" type="QString" value="0"/>
+                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                <Option name="draw_inside_polygon" type="QString" value="0"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="line_color" type="QString" value="220,247,70,255,hsv:0.19166666666666668,0.71764705882352942,0.96862745098039216,1"/>
+                <Option name="line_style" type="QString" value="solid"/>
+                <Option name="line_width" type="QString" value="0.6"/>
+                <Option name="line_width_unit" type="QString" value="MM"/>
+                <Option name="offset" type="QString" value="0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="ring_filter" type="QString" value="0"/>
+                <Option name="trim_distance_end" type="QString" value="0"/>
+                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                <Option name="trim_distance_start" type="QString" value="0"/>
+                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                <Option name="use_custom_dash" type="QString" value="0"/>
+                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" type="fill" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{049f866b-43ff-4b9b-9b9c-144fda1f1f11}" enabled="1" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="220,247,70,255,hsv:0.19166666666666668,0.71764705882352942,0.96862745098039216,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="157,176,50,255,hsv:0.19166666666666668,0.71764705882352942,0.69187457084000914,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol name="" type="marker" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{914127d1-b568-4c1d-8c0f-e5f27a8e5b35}" enabled="1" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="220,247,70,255,hsv:0.19166666666666668,0.71764705882352942,0.96862745098039216,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="diamond"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="157,176,50,255,hsv:0.19166666666666668,0.71764705882352942,0.69187457084000914,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="3"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" referencescale="-1" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="marker" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{e92dff5e-1f68-4b9d-a4a7-ce6b3abef0af}" enabled="1" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="237,139,35,255,rgb:0.9294118,0.545098,0.1372549,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2.5"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="agency_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="site_no" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="station_nm" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="site_tp_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="long_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dec_lat_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dec_long_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="coord_meth_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="coord_acy_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="coord_datum_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dec_coord_datum_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="state_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="county_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="country_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="land_net_ds" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="map_nm" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="map_scale_fc" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_meth_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_acy_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_datum_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="huc_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="basin_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="topo_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="instruments_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="construction_dt" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="inventory_dt" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="drain_area_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="contrib_drain_area_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tz_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="local_time_fg" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reliability_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gw_file_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nat_aqfr_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aqfr_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aqfr_type_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="well_depth_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hole_depth_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="depth_src_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="project_no" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="location_type" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="distance_to_basin_km" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="distance_to_centroid_km" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="usgs_url" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="fid"/>
+        <alias name="" index="1" field="agency_cd"/>
+        <alias name="" index="2" field="site_no"/>
+        <alias name="" index="3" field="station_nm"/>
+        <alias name="" index="4" field="site_tp_cd"/>
+        <alias name="" index="5" field="lat_va"/>
+        <alias name="" index="6" field="long_va"/>
+        <alias name="" index="7" field="dec_lat_va"/>
+        <alias name="" index="8" field="dec_long_va"/>
+        <alias name="" index="9" field="coord_meth_cd"/>
+        <alias name="" index="10" field="coord_acy_cd"/>
+        <alias name="" index="11" field="coord_datum_cd"/>
+        <alias name="" index="12" field="dec_coord_datum_cd"/>
+        <alias name="" index="13" field="district_cd"/>
+        <alias name="" index="14" field="state_cd"/>
+        <alias name="" index="15" field="county_cd"/>
+        <alias name="" index="16" field="country_cd"/>
+        <alias name="" index="17" field="land_net_ds"/>
+        <alias name="" index="18" field="map_nm"/>
+        <alias name="" index="19" field="map_scale_fc"/>
+        <alias name="" index="20" field="alt_va"/>
+        <alias name="" index="21" field="alt_meth_cd"/>
+        <alias name="" index="22" field="alt_acy_va"/>
+        <alias name="" index="23" field="alt_datum_cd"/>
+        <alias name="" index="24" field="huc_cd"/>
+        <alias name="" index="25" field="basin_cd"/>
+        <alias name="" index="26" field="topo_cd"/>
+        <alias name="" index="27" field="instruments_cd"/>
+        <alias name="" index="28" field="construction_dt"/>
+        <alias name="" index="29" field="inventory_dt"/>
+        <alias name="" index="30" field="drain_area_va"/>
+        <alias name="" index="31" field="contrib_drain_area_va"/>
+        <alias name="" index="32" field="tz_cd"/>
+        <alias name="" index="33" field="local_time_fg"/>
+        <alias name="" index="34" field="reliability_cd"/>
+        <alias name="" index="35" field="gw_file_cd"/>
+        <alias name="" index="36" field="nat_aqfr_cd"/>
+        <alias name="" index="37" field="aqfr_cd"/>
+        <alias name="" index="38" field="aqfr_type_cd"/>
+        <alias name="" index="39" field="well_depth_va"/>
+        <alias name="" index="40" field="hole_depth_va"/>
+        <alias name="" index="41" field="depth_src_cd"/>
+        <alias name="" index="42" field="project_no"/>
+        <alias name="" index="43" field="location_type"/>
+        <alias name="" index="44" field="distance_to_basin_km"/>
+        <alias name="" index="45" field="distance_to_centroid_km"/>
+        <alias name="" index="46" field="usgs_url"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" field="fid" expression=""/>
+        <default applyOnUpdate="0" field="agency_cd" expression=""/>
+        <default applyOnUpdate="0" field="site_no" expression=""/>
+        <default applyOnUpdate="0" field="station_nm" expression=""/>
+        <default applyOnUpdate="0" field="site_tp_cd" expression=""/>
+        <default applyOnUpdate="0" field="lat_va" expression=""/>
+        <default applyOnUpdate="0" field="long_va" expression=""/>
+        <default applyOnUpdate="0" field="dec_lat_va" expression=""/>
+        <default applyOnUpdate="0" field="dec_long_va" expression=""/>
+        <default applyOnUpdate="0" field="coord_meth_cd" expression=""/>
+        <default applyOnUpdate="0" field="coord_acy_cd" expression=""/>
+        <default applyOnUpdate="0" field="coord_datum_cd" expression=""/>
+        <default applyOnUpdate="0" field="dec_coord_datum_cd" expression=""/>
+        <default applyOnUpdate="0" field="district_cd" expression=""/>
+        <default applyOnUpdate="0" field="state_cd" expression=""/>
+        <default applyOnUpdate="0" field="county_cd" expression=""/>
+        <default applyOnUpdate="0" field="country_cd" expression=""/>
+        <default applyOnUpdate="0" field="land_net_ds" expression=""/>
+        <default applyOnUpdate="0" field="map_nm" expression=""/>
+        <default applyOnUpdate="0" field="map_scale_fc" expression=""/>
+        <default applyOnUpdate="0" field="alt_va" expression=""/>
+        <default applyOnUpdate="0" field="alt_meth_cd" expression=""/>
+        <default applyOnUpdate="0" field="alt_acy_va" expression=""/>
+        <default applyOnUpdate="0" field="alt_datum_cd" expression=""/>
+        <default applyOnUpdate="0" field="huc_cd" expression=""/>
+        <default applyOnUpdate="0" field="basin_cd" expression=""/>
+        <default applyOnUpdate="0" field="topo_cd" expression=""/>
+        <default applyOnUpdate="0" field="instruments_cd" expression=""/>
+        <default applyOnUpdate="0" field="construction_dt" expression=""/>
+        <default applyOnUpdate="0" field="inventory_dt" expression=""/>
+        <default applyOnUpdate="0" field="drain_area_va" expression=""/>
+        <default applyOnUpdate="0" field="contrib_drain_area_va" expression=""/>
+        <default applyOnUpdate="0" field="tz_cd" expression=""/>
+        <default applyOnUpdate="0" field="local_time_fg" expression=""/>
+        <default applyOnUpdate="0" field="reliability_cd" expression=""/>
+        <default applyOnUpdate="0" field="gw_file_cd" expression=""/>
+        <default applyOnUpdate="0" field="nat_aqfr_cd" expression=""/>
+        <default applyOnUpdate="0" field="aqfr_cd" expression=""/>
+        <default applyOnUpdate="0" field="aqfr_type_cd" expression=""/>
+        <default applyOnUpdate="0" field="well_depth_va" expression=""/>
+        <default applyOnUpdate="0" field="hole_depth_va" expression=""/>
+        <default applyOnUpdate="0" field="depth_src_cd" expression=""/>
+        <default applyOnUpdate="0" field="project_no" expression=""/>
+        <default applyOnUpdate="0" field="location_type" expression=""/>
+        <default applyOnUpdate="0" field="distance_to_basin_km" expression=""/>
+        <default applyOnUpdate="0" field="distance_to_centroid_km" expression=""/>
+        <default applyOnUpdate="0" field="usgs_url" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" unique_strength="1" constraints="3" field="fid" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="agency_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="site_no" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="station_nm" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="site_tp_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="lat_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="long_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dec_lat_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dec_long_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="coord_meth_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="coord_acy_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="coord_datum_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dec_coord_datum_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="district_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="state_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="county_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="country_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="land_net_ds" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="map_nm" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="map_scale_fc" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="alt_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="alt_meth_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="alt_acy_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="alt_datum_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="huc_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="basin_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="topo_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="instruments_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="construction_dt" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="inventory_dt" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="drain_area_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="contrib_drain_area_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="tz_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="local_time_fg" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="reliability_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="gw_file_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="nat_aqfr_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="aqfr_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="aqfr_type_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="well_depth_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="hole_depth_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="depth_src_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="project_no" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="location_type" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="distance_to_basin_km" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="distance_to_centroid_km" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="usgs_url" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="fid"/>
+        <constraint exp="" desc="" field="agency_cd"/>
+        <constraint exp="" desc="" field="site_no"/>
+        <constraint exp="" desc="" field="station_nm"/>
+        <constraint exp="" desc="" field="site_tp_cd"/>
+        <constraint exp="" desc="" field="lat_va"/>
+        <constraint exp="" desc="" field="long_va"/>
+        <constraint exp="" desc="" field="dec_lat_va"/>
+        <constraint exp="" desc="" field="dec_long_va"/>
+        <constraint exp="" desc="" field="coord_meth_cd"/>
+        <constraint exp="" desc="" field="coord_acy_cd"/>
+        <constraint exp="" desc="" field="coord_datum_cd"/>
+        <constraint exp="" desc="" field="dec_coord_datum_cd"/>
+        <constraint exp="" desc="" field="district_cd"/>
+        <constraint exp="" desc="" field="state_cd"/>
+        <constraint exp="" desc="" field="county_cd"/>
+        <constraint exp="" desc="" field="country_cd"/>
+        <constraint exp="" desc="" field="land_net_ds"/>
+        <constraint exp="" desc="" field="map_nm"/>
+        <constraint exp="" desc="" field="map_scale_fc"/>
+        <constraint exp="" desc="" field="alt_va"/>
+        <constraint exp="" desc="" field="alt_meth_cd"/>
+        <constraint exp="" desc="" field="alt_acy_va"/>
+        <constraint exp="" desc="" field="alt_datum_cd"/>
+        <constraint exp="" desc="" field="huc_cd"/>
+        <constraint exp="" desc="" field="basin_cd"/>
+        <constraint exp="" desc="" field="topo_cd"/>
+        <constraint exp="" desc="" field="instruments_cd"/>
+        <constraint exp="" desc="" field="construction_dt"/>
+        <constraint exp="" desc="" field="inventory_dt"/>
+        <constraint exp="" desc="" field="drain_area_va"/>
+        <constraint exp="" desc="" field="contrib_drain_area_va"/>
+        <constraint exp="" desc="" field="tz_cd"/>
+        <constraint exp="" desc="" field="local_time_fg"/>
+        <constraint exp="" desc="" field="reliability_cd"/>
+        <constraint exp="" desc="" field="gw_file_cd"/>
+        <constraint exp="" desc="" field="nat_aqfr_cd"/>
+        <constraint exp="" desc="" field="aqfr_cd"/>
+        <constraint exp="" desc="" field="aqfr_type_cd"/>
+        <constraint exp="" desc="" field="well_depth_va"/>
+        <constraint exp="" desc="" field="hole_depth_va"/>
+        <constraint exp="" desc="" field="depth_src_cd"/>
+        <constraint exp="" desc="" field="project_no"/>
+        <constraint exp="" desc="" field="location_type"/>
+        <constraint exp="" desc="" field="distance_to_basin_km"/>
+        <constraint exp="" desc="" field="distance_to_centroid_km"/>
+        <constraint exp="" desc="" field="usgs_url"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+    <maplayer geometry="Point" symbologyReferenceScale="-1" labelsEnabled="0" legendPlaceholderImage="" simplifyMaxScale="1" type="vector" wkbType="Point" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyAlgorithm="0" autoRefreshMode="Disabled" minScale="100000000" refreshOnNotifyEnabled="0" readOnly="0" maxScale="0" simplifyLocal="1" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>542656.49549700494389981</xmin>
+        <ymin>4551185.22147393971681595</ymin>
+        <xmax>544272.06724741100333631</xmax>
+        <ymax>4554031.77350161969661713</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-74.4919465318331504</xmin>
+        <ymin>41.11074810891990694</ymin>
+        <xmax>-74.47249999999999659</xmax>
+        <ymax>41.13647542315018768</ymax>
+      </wgs84extent>
+      <id>USGS_in_basin__3__c9fb2ceb_a034_439b_848f_ed581ed97bd8</id>
+      <datasource>./Canistear.gpkg|layername=sites_in_basin</datasource>
+      <layername>USGS in basin (3)</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+          <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3102</srsid>
+          <srid>32618</srid>
+          <authid>EPSG:32618</authid>
+          <description>WGS 84 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+            <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+            <srsid>3102</srsid>
+            <srid>32618</srid>
+            <authid>EPSG:32618</authid>
+            <description>WGS 84 / UTM zone 18N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startField="" endField="" limitMode="0" startExpression="" accumulate="0" durationUnit="min" endExpression="" fixedDuration="0" enabled="0" durationField="" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation clamping="Terrain" respectLayerSymbol="1" zoffset="0" extrusionEnabled="0" showMarkerSymbolInSurfacePlots="0" symbology="Line" type="IndividualFeatures" zscale="1" binding="Centroid" extrusion="0" customToleranceEnabled="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" type="line" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{e4072327-9653-4370-bbd0-fb7131c4b672}" enabled="1" pass="0" class="SimpleLine">
+              <Option type="Map">
+                <Option name="align_dash_pattern" type="QString" value="0"/>
+                <Option name="capstyle" type="QString" value="square"/>
+                <Option name="customdash" type="QString" value="5;2"/>
+                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="customdash_unit" type="QString" value="MM"/>
+                <Option name="dash_pattern_offset" type="QString" value="0"/>
+                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                <Option name="draw_inside_polygon" type="QString" value="0"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="line_color" type="QString" value="52,72,203,255,hsv:0.64444444444444449,0.74509803921568629,0.79607843137254897,1"/>
+                <Option name="line_style" type="QString" value="solid"/>
+                <Option name="line_width" type="QString" value="0.6"/>
+                <Option name="line_width_unit" type="QString" value="MM"/>
+                <Option name="offset" type="QString" value="0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="ring_filter" type="QString" value="0"/>
+                <Option name="trim_distance_end" type="QString" value="0"/>
+                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                <Option name="trim_distance_start" type="QString" value="0"/>
+                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                <Option name="use_custom_dash" type="QString" value="0"/>
+                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" type="fill" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{bf312205-0c9c-4d72-8fb8-f3839f5c4bc4}" enabled="1" pass="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="52,72,203,255,hsv:0.64444444444444449,0.74509803921568629,0.79607843137254897,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="37,51,145,255,hsv:0.64444444444444449,0.74509803921568629,0.56862745098039214,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol name="" type="marker" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{000a5f58-f2bb-4880-a82a-d210e7e0f335}" enabled="1" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="52,72,203,255,hsv:0.64444444444444449,0.74509803921568629,0.79607843137254897,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="diamond"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="37,51,145,255,hsv:0.64444444444444449,0.74509803921568629,0.56862745098039214,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="3"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" referencescale="-1" enableorderby="0">
+        <symbols>
+          <symbol name="0" type="marker" frame_rate="10" is_animated="0" clip_to_extent="1" alpha="1" force_rhr="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer locked="0" id="{8e6bf6b9-d78b-421f-8418-bfb7f2f59ce6}" enabled="1" pass="0" class="SimpleMarker">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="22,131,75,255,rgb:0.0862745,0.5137255,0.2941176,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="circle"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="255,255,255,255,rgb:1,1,1,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="2.5"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="agency_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="site_no" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="station_nm" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="site_tp_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="long_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dec_lat_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dec_long_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="coord_meth_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="coord_acy_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="coord_datum_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dec_coord_datum_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="state_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="county_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="country_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="land_net_ds" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="map_nm" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="map_scale_fc" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_meth_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_acy_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="alt_datum_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="huc_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="basin_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="topo_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="instruments_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="construction_dt" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="inventory_dt" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="drain_area_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="contrib_drain_area_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tz_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="local_time_fg" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reliability_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gw_file_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nat_aqfr_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aqfr_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aqfr_type_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="well_depth_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hole_depth_va" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="depth_src_cd" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="project_no" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="location_type" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="distance_to_basin_km" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="distance_to_centroid_km" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="usgs_url" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="fid"/>
+        <alias name="" index="1" field="agency_cd"/>
+        <alias name="" index="2" field="site_no"/>
+        <alias name="" index="3" field="station_nm"/>
+        <alias name="" index="4" field="site_tp_cd"/>
+        <alias name="" index="5" field="lat_va"/>
+        <alias name="" index="6" field="long_va"/>
+        <alias name="" index="7" field="dec_lat_va"/>
+        <alias name="" index="8" field="dec_long_va"/>
+        <alias name="" index="9" field="coord_meth_cd"/>
+        <alias name="" index="10" field="coord_acy_cd"/>
+        <alias name="" index="11" field="coord_datum_cd"/>
+        <alias name="" index="12" field="dec_coord_datum_cd"/>
+        <alias name="" index="13" field="district_cd"/>
+        <alias name="" index="14" field="state_cd"/>
+        <alias name="" index="15" field="county_cd"/>
+        <alias name="" index="16" field="country_cd"/>
+        <alias name="" index="17" field="land_net_ds"/>
+        <alias name="" index="18" field="map_nm"/>
+        <alias name="" index="19" field="map_scale_fc"/>
+        <alias name="" index="20" field="alt_va"/>
+        <alias name="" index="21" field="alt_meth_cd"/>
+        <alias name="" index="22" field="alt_acy_va"/>
+        <alias name="" index="23" field="alt_datum_cd"/>
+        <alias name="" index="24" field="huc_cd"/>
+        <alias name="" index="25" field="basin_cd"/>
+        <alias name="" index="26" field="topo_cd"/>
+        <alias name="" index="27" field="instruments_cd"/>
+        <alias name="" index="28" field="construction_dt"/>
+        <alias name="" index="29" field="inventory_dt"/>
+        <alias name="" index="30" field="drain_area_va"/>
+        <alias name="" index="31" field="contrib_drain_area_va"/>
+        <alias name="" index="32" field="tz_cd"/>
+        <alias name="" index="33" field="local_time_fg"/>
+        <alias name="" index="34" field="reliability_cd"/>
+        <alias name="" index="35" field="gw_file_cd"/>
+        <alias name="" index="36" field="nat_aqfr_cd"/>
+        <alias name="" index="37" field="aqfr_cd"/>
+        <alias name="" index="38" field="aqfr_type_cd"/>
+        <alias name="" index="39" field="well_depth_va"/>
+        <alias name="" index="40" field="hole_depth_va"/>
+        <alias name="" index="41" field="depth_src_cd"/>
+        <alias name="" index="42" field="project_no"/>
+        <alias name="" index="43" field="location_type"/>
+        <alias name="" index="44" field="distance_to_basin_km"/>
+        <alias name="" index="45" field="distance_to_centroid_km"/>
+        <alias name="" index="46" field="usgs_url"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" field="fid" expression=""/>
+        <default applyOnUpdate="0" field="agency_cd" expression=""/>
+        <default applyOnUpdate="0" field="site_no" expression=""/>
+        <default applyOnUpdate="0" field="station_nm" expression=""/>
+        <default applyOnUpdate="0" field="site_tp_cd" expression=""/>
+        <default applyOnUpdate="0" field="lat_va" expression=""/>
+        <default applyOnUpdate="0" field="long_va" expression=""/>
+        <default applyOnUpdate="0" field="dec_lat_va" expression=""/>
+        <default applyOnUpdate="0" field="dec_long_va" expression=""/>
+        <default applyOnUpdate="0" field="coord_meth_cd" expression=""/>
+        <default applyOnUpdate="0" field="coord_acy_cd" expression=""/>
+        <default applyOnUpdate="0" field="coord_datum_cd" expression=""/>
+        <default applyOnUpdate="0" field="dec_coord_datum_cd" expression=""/>
+        <default applyOnUpdate="0" field="district_cd" expression=""/>
+        <default applyOnUpdate="0" field="state_cd" expression=""/>
+        <default applyOnUpdate="0" field="county_cd" expression=""/>
+        <default applyOnUpdate="0" field="country_cd" expression=""/>
+        <default applyOnUpdate="0" field="land_net_ds" expression=""/>
+        <default applyOnUpdate="0" field="map_nm" expression=""/>
+        <default applyOnUpdate="0" field="map_scale_fc" expression=""/>
+        <default applyOnUpdate="0" field="alt_va" expression=""/>
+        <default applyOnUpdate="0" field="alt_meth_cd" expression=""/>
+        <default applyOnUpdate="0" field="alt_acy_va" expression=""/>
+        <default applyOnUpdate="0" field="alt_datum_cd" expression=""/>
+        <default applyOnUpdate="0" field="huc_cd" expression=""/>
+        <default applyOnUpdate="0" field="basin_cd" expression=""/>
+        <default applyOnUpdate="0" field="topo_cd" expression=""/>
+        <default applyOnUpdate="0" field="instruments_cd" expression=""/>
+        <default applyOnUpdate="0" field="construction_dt" expression=""/>
+        <default applyOnUpdate="0" field="inventory_dt" expression=""/>
+        <default applyOnUpdate="0" field="drain_area_va" expression=""/>
+        <default applyOnUpdate="0" field="contrib_drain_area_va" expression=""/>
+        <default applyOnUpdate="0" field="tz_cd" expression=""/>
+        <default applyOnUpdate="0" field="local_time_fg" expression=""/>
+        <default applyOnUpdate="0" field="reliability_cd" expression=""/>
+        <default applyOnUpdate="0" field="gw_file_cd" expression=""/>
+        <default applyOnUpdate="0" field="nat_aqfr_cd" expression=""/>
+        <default applyOnUpdate="0" field="aqfr_cd" expression=""/>
+        <default applyOnUpdate="0" field="aqfr_type_cd" expression=""/>
+        <default applyOnUpdate="0" field="well_depth_va" expression=""/>
+        <default applyOnUpdate="0" field="hole_depth_va" expression=""/>
+        <default applyOnUpdate="0" field="depth_src_cd" expression=""/>
+        <default applyOnUpdate="0" field="project_no" expression=""/>
+        <default applyOnUpdate="0" field="location_type" expression=""/>
+        <default applyOnUpdate="0" field="distance_to_basin_km" expression=""/>
+        <default applyOnUpdate="0" field="distance_to_centroid_km" expression=""/>
+        <default applyOnUpdate="0" field="usgs_url" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" unique_strength="1" constraints="3" field="fid" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="agency_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="site_no" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="station_nm" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="site_tp_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="lat_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="long_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dec_lat_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dec_long_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="coord_meth_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="coord_acy_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="coord_datum_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="dec_coord_datum_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="district_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="state_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="county_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="country_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="land_net_ds" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="map_nm" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="map_scale_fc" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="alt_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="alt_meth_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="alt_acy_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="alt_datum_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="huc_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="basin_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="topo_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="instruments_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="construction_dt" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="inventory_dt" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="drain_area_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="contrib_drain_area_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="tz_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="local_time_fg" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="reliability_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="gw_file_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="nat_aqfr_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="aqfr_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="aqfr_type_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="well_depth_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="hole_depth_va" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="depth_src_cd" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="project_no" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="location_type" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="distance_to_basin_km" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="distance_to_centroid_km" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="usgs_url" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="fid"/>
+        <constraint exp="" desc="" field="agency_cd"/>
+        <constraint exp="" desc="" field="site_no"/>
+        <constraint exp="" desc="" field="station_nm"/>
+        <constraint exp="" desc="" field="site_tp_cd"/>
+        <constraint exp="" desc="" field="lat_va"/>
+        <constraint exp="" desc="" field="long_va"/>
+        <constraint exp="" desc="" field="dec_lat_va"/>
+        <constraint exp="" desc="" field="dec_long_va"/>
+        <constraint exp="" desc="" field="coord_meth_cd"/>
+        <constraint exp="" desc="" field="coord_acy_cd"/>
+        <constraint exp="" desc="" field="coord_datum_cd"/>
+        <constraint exp="" desc="" field="dec_coord_datum_cd"/>
+        <constraint exp="" desc="" field="district_cd"/>
+        <constraint exp="" desc="" field="state_cd"/>
+        <constraint exp="" desc="" field="county_cd"/>
+        <constraint exp="" desc="" field="country_cd"/>
+        <constraint exp="" desc="" field="land_net_ds"/>
+        <constraint exp="" desc="" field="map_nm"/>
+        <constraint exp="" desc="" field="map_scale_fc"/>
+        <constraint exp="" desc="" field="alt_va"/>
+        <constraint exp="" desc="" field="alt_meth_cd"/>
+        <constraint exp="" desc="" field="alt_acy_va"/>
+        <constraint exp="" desc="" field="alt_datum_cd"/>
+        <constraint exp="" desc="" field="huc_cd"/>
+        <constraint exp="" desc="" field="basin_cd"/>
+        <constraint exp="" desc="" field="topo_cd"/>
+        <constraint exp="" desc="" field="instruments_cd"/>
+        <constraint exp="" desc="" field="construction_dt"/>
+        <constraint exp="" desc="" field="inventory_dt"/>
+        <constraint exp="" desc="" field="drain_area_va"/>
+        <constraint exp="" desc="" field="contrib_drain_area_va"/>
+        <constraint exp="" desc="" field="tz_cd"/>
+        <constraint exp="" desc="" field="local_time_fg"/>
+        <constraint exp="" desc="" field="reliability_cd"/>
+        <constraint exp="" desc="" field="gw_file_cd"/>
+        <constraint exp="" desc="" field="nat_aqfr_cd"/>
+        <constraint exp="" desc="" field="aqfr_cd"/>
+        <constraint exp="" desc="" field="aqfr_type_cd"/>
+        <constraint exp="" desc="" field="well_depth_va"/>
+        <constraint exp="" desc="" field="hole_depth_va"/>
+        <constraint exp="" desc="" field="depth_src_cd"/>
+        <constraint exp="" desc="" field="project_no"/>
+        <constraint exp="" desc="" field="location_type"/>
+        <constraint exp="" desc="" field="distance_to_basin_km"/>
+        <constraint exp="" desc="" field="distance_to_centroid_km"/>
+        <constraint exp="" desc="" field="usgs_url"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="Esri_World_Street_Map__internet_required__70d0e222_0c1f_4856_b06d_6fea8343b8a6"/>
+    <layer id="2_km_search_buffer_411e791c_31a9_4ff5_9d88_c87dd1e16b89"/>
+    <layer id="Canistear_Reservoir_contributing_watershed_bef2e661_4122_4cc1_9fdf_d1460fbae152"/>
+    <layer id="USGS_buffer_only__2__010f7d6b_164d_4690_8195_4b1f8ce70786"/>
+    <layer id="USGS_in_basin__3__c9fb2ceb_a034_439b_848f_ed581ed97bd8"/>
+  </layerorder>
+  <labelEngineSettings/>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <ScaleMethod type="QString">HorizontalMiddle</ScaleMethod>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawLabelMetrics type="bool">false</DrawLabelMetrics>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255,rgb:1,0,0,1</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option name="name" type="QString" value=""/>
+      <Option name="properties"/>
+      <Option name="type" type="QString" value="collection"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title>Canistear Reservoir contributing watershed and all USGS sites</title>
+    <abstract></abstract>
+    <links/>
+    <dates>
+      <date type="Created" value="2026-10-15T12:32:21"/>
+    </dates>
+    <author>CodexSandboxOnline</author>
+    <creation>2026-10-15T12:32:21</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <mapViewDocks3D/>
+  <Bookmarks/>
+  <Sensors/>
+  <ProjectViewSettings UseProjectScales="0" rotation="0">
+    <Scales/>
+    <DefaultViewExtent xmin="540142.66171310271602124" xmax="548798.48292620840948075" ymax="4559199.93669264670461416" ymin="4548102.13152599800378084">
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["WGS 84 / UTM zone 18N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 18N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 78°W and 72°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Canada - Nunavut; Ontario; Quebec. Colombia. Cuba. Ecuador. Greenland. Haiti. Jamaica. Panama. Turks and Caicos Islands. United States (USA). Venezuela."],BBOX[0,-78,84,-72]],ID["EPSG",32618]]</wkt>
+        <proj4>+proj=utm +zone=18 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3102</srsid>
+        <srid>32618</srid>
+        <authid>EPSG:32618</authid>
+        <description>WGS 84 / UTM zone 18N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectStyleSettings RandomizeDefaultSymbolColor="1" projectStyleId="attachment:///JtwsPT_styles.db" iccProfileId="attachment:///" colorModel="Rgb" DefaultSymbolOpacity="1">
+    <databases/>
+  </ProjectStyleSettings>
+  <ProjectTimeSettings totalMovieFrames="100" timeStep="1" cumulativeTemporalRange="0" timeStepUnit="h" frameRate="1"/>
+  <ElevationProperties FilterInvertSlider="0">
+    <terrainProvider type="flat">
+      <TerrainProvider scale="1" offset="0"/>
+    </terrainProvider>
+  </ElevationProperties>
+  <ProjectDisplaySettings CoordinateAxisOrder="Default" CoordinateType="MapCrs">
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option name="decimal_separator" type="invalid"/>
+        <Option name="decimals" type="int" value="6"/>
+        <Option name="direction_format" type="int" value="0"/>
+        <Option name="rounding_type" type="int" value="0"/>
+        <Option name="show_plus" type="bool" value="false"/>
+        <Option name="show_thousand_separator" type="bool" value="true"/>
+        <Option name="show_trailing_zeros" type="bool" value="false"/>
+        <Option name="thousand_separator" type="invalid"/>
+      </Option>
+    </BearingFormat>
+    <GeographicCoordinateFormat id="geographiccoordinate">
+      <Option type="Map">
+        <Option name="angle_format" type="QString" value="DecimalDegrees"/>
+        <Option name="decimal_separator" type="invalid"/>
+        <Option name="decimals" type="int" value="6"/>
+        <Option name="rounding_type" type="int" value="0"/>
+        <Option name="show_leading_degree_zeros" type="bool" value="false"/>
+        <Option name="show_leading_zeros" type="bool" value="false"/>
+        <Option name="show_plus" type="bool" value="false"/>
+        <Option name="show_suffix" type="bool" value="false"/>
+        <Option name="show_thousand_separator" type="bool" value="true"/>
+        <Option name="show_trailing_zeros" type="bool" value="false"/>
+        <Option name="thousand_separator" type="invalid"/>
+      </Option>
+    </GeographicCoordinateFormat>
+    <CoordinateCustomCrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </CoordinateCustomCrs>
+  </ProjectDisplaySettings>
+  <ProjectGpsSettings autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="" autoAddTrackVertices="0">
+    <timeStampFields/>
+  </ProjectGpsSettings>
+</qgis>

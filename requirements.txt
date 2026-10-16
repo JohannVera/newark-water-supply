@@ -1,0 +1,7 @@
+requests
+pandas
+geopandas>=1.0
+shapely
+pyproj
+pyogrio
+ipython
