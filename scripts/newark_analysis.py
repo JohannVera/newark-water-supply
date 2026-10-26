@@ -105,7 +105,7 @@ def run():
     print(pd.DataFrame(reports).to_string(index=False));print('Unique sites:',len(inventory),'IV series:',len(timing),flush=True)
 
 def make_map(out,basins,sites,inventory,relations,reports):
-    m=folium.Map(location=[41.08,-74.46],zoom_start=11,tiles='OpenStreetMap')
+    m=folium.Map(location=[41.08,-74.46],zoom_start=11,tiles='CartoDB positron')
     colors=['#1565c0','#8e24aa','#e65100','#00897b','#c62828']
     for (key,b),color in zip(basins.items(),colors):
         name,sid,_=CONFIG[key];g=folium.FeatureGroup(name=name+' contributing watershed')
