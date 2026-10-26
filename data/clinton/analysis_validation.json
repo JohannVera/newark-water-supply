@@ -1,0 +1,9 @@
+{
+  "reservoir": "Clinton",
+  "outlet_site": "01382300",
+  "area_km2": 28.82274638130027,
+  "published_area_sqmi": 10.5,
+  "difference_pct": 5.985948504204797,
+  "method": "reused existing NLDI basin",
+  "boundary_valid": true
+}

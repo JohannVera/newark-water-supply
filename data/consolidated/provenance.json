@@ -1,0 +1,38 @@
+{
+  "retrieved_utc": "2026-10-26T14:52:49.629217+00:00",
+  "buffer_km": 2,
+  "sources": [
+    {
+      "url": "https://api.water.usgs.gov/nldi/linked-data/nwissite/USGS-01382380/basin?simplified=false",
+      "retrieved_utc": "2026-10-26T14:52:31.520893+00:00",
+      "file": "data/charlotteburg/sources/nldi_basin.geojson"
+    },
+    {
+      "url": "https://api.water.usgs.gov/nldi/linked-data/nwissite/USGS-01382300/basin?simplified=false",
+      "retrieved_utc": "2026-10-26T14:52:34.932122+00:00",
+      "file": "data/clinton/sources/nldi_basin.geojson"
+    },
+    {
+      "url": "https://api.water.usgs.gov/nldi/linked-data/nwissite/USGS-01382400/basin?simplified=false",
+      "retrieved_utc": "2026-10-26T14:52:38.875242+00:00",
+      "file": "data/echo_lake/sources/nldi_basin.geojson"
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&bBox=-74.5637627%2C40.9697978%2C-74.3553869%2C41.1878749&siteStatus=all&siteOutput=expanded",
+      "retrieved_utc": "2026-10-26T14:52:42.850705+00:00",
+      "file": "data/consolidated/sources/sites.rdb"
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&sites=01368823%2C01368935%2C01379615%2C01382050%2C01382090%2C01382100%2C01382170%2C01382200%2C01382210%2C01382270%2C01382278%2C01382280%2C01382300%2C01382310%2C01382320%2C01382360%2C01382370%2C01382380%2C01382381%2C01382385%2C01382392%2C01382396%2C01382400%2C01382410%2C01382430%2C01382450%2C01382490%2C01382500%2C01382830%2C01382870%2C01382880%2C01385550%2C405913074275301%2C410104074284101%2C410148074252901%2C410200074260000%2C410207074270001%2C410207074310401%2C410208074233501%2C410230074300001%2C410320074273801%2C410332074275401%2C410507074222901%2C410545074224801%2C410615074240401%2C410639074233201%2C410639074293001%2C410930074235901%2C411100074303301&seriesCatalogOutput=true&siteStatus=all",
+      "retrieved_utc": "2026-10-26T14:52:46.171148+00:00",
+      "file": "data/consolidated/sources/series_catalog.rdb"
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01368823%2C01368935%2C01379615%2C01382050%2C01382090%2C01382100%2C01382170%2C01382200%2C01382210%2C01382270%2C01382278%2C01382280%2C01382300%2C01382310%2C01382320%2C01382360%2C01382370%2C01382380%2C01382381%2C01382385%2C01382392%2C01382396%2C01382400%2C01382410%2C01382430%2C01382450%2C01382490%2C01382500%2C01382830%2C01382870%2C01382880%2C01385550%2C405913074275301%2C410104074284101%2C410148074252901%2C410200074260000%2C410207074270001%2C410207074310401%2C410208074233501%2C410230074300001%2C410320074273801%2C410332074275401%2C410507074222901%2C410545074224801%2C410615074240401%2C410639074233201%2C410639074293001%2C410930074235901%2C411100074303301&period=P7D&siteStatus=all",
+      "retrieved_utc": "2026-10-26T14:52:49.618851+00:00",
+      "file": "data/consolidated/sources/instantaneous_values.json"
+    }
+  ],
+  "existing_boundaries": "Reused from repository; previous raw source responses retained",
+  "latency_definition": "Latest age = retrieval UTC minus observation UTC; not transmission or first-publication latency"
+}

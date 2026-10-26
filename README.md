@@ -41,3 +41,31 @@ Station inclusion does not establish continuous data availability, current opera
 ## Origin
 
 Moved from [JohannVera/crabtree-flood-forecasting](https://github.com/JohannVera/crabtree-flood-forecasting) on October 16, 2026. The original history remains in that repository. Module 5 there remains a methodological reference.
+
+## Five-reservoir consolidated analysis — October 26, 2026
+
+The Newark system analysis now includes Charlotteburg, Clinton and Echo Lake alongside the existing Canistear and Oak Ridge basins. Existing basin files were preserved. The additions follow the same USGS NLDI upstream-basin and 2 km buffer workflow, using EPSG:32618 for metric operations and WGS84 GeoJSON for exchange.
+
+| Reservoir | New notebook | Output folder |
+|---|---|---|
+| Charlotteburg | [Executed notebook](notebooks/charlotteburg/Charlotteburg_Watershed_USGS.ipynb) | [Data](data/charlotteburg/) |
+| Clinton | [Executed notebook](notebooks/clinton/Clinton_Watershed_USGS.ipynb) | [Data](data/clinton/) |
+| Echo Lake | [Executed notebook](notebooks/echo_lake/EchoLake_Watershed_USGS.ipynb) | [Data](data/echo_lake/) |
+
+- [Consolidated interactive map](data/consolidated/newark_system_map.html): download the HTML and open it in a browser; GitHub's file viewer does not execute HTML. Internet is required for map libraries and tiles.
+- [Station inventory](data/consolidated/usgs_station_inventory.csv), [variable-specific availability](data/consolidated/usgs_series_catalog.csv), [timing evidence](data/consolidated/station_timing_by_variable.csv) and [inside/nearby relationships](data/consolidated/station_watershed_relationships.csv).
+- [GARR findings, basin checks, sources and limitations](data/consolidated/GARR_assessment.md).
+
+The scope contains 49 unique USGS locations. Three rain gauges returned recent 15-minute observations, but their newest values were approximately 68 minutes old at retrieval. Observation spacing is not transmission frequency, and latest observation age is not measured publication latency. Station-specific telemetry remains unverified. Clinton's basin area differs by approximately +6% from the published reference and requires outlet/catchment review. Basins overlap; their areas must not be summed. Operational transfers are not represented by natural drainage polygons.
+
+### Reproduce or refresh
+
+From the repository root:
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/newark_analysis.py
+python scripts/package_analysis.py
+```
+
+The first script reuses saved boundaries, discovers sites, fetches the complete available series catalog and seven days of IV data, then generates the consolidated outputs. The second exports enriched station labels, three reservoir GeoPackages/GeoJSONs, and notebooks with executed snapshot validation/display outputs. New notebook folders mirror the reservoir output folders. The saved map iframe is for notebook-server use; download/open the HTML directly when viewing from GitHub or Colab. Snapshot narrative findings in `GARR_assessment.md` and this README are dated and should be reviewed after a refresh. Exact URLs, raw responses and retrieval times are saved alongside outputs.

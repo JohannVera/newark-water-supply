@@ -1,0 +1,97 @@
+reservoir,key,site_no,location_type,distance_to_watershed_km,relevance
+Canistear,canistear,01368823,nearby_outside,1.955011925020921,Spatial inclusion only; variable and hydraulic connectivity require review
+Canistear,canistear,01382050,nearby_outside,1.6147141059698997,Spatial inclusion only; variable and hydraulic connectivity require review
+Canistear,canistear,01382090,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Canistear,canistear,01382100,inside,0.0,Reservoir outlet/reference station; reservoir level/storage is not rainfall
+Canistear,canistear,410639074293001,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01368823,nearby_outside,1.955011925020921,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01368935,nearby_outside,1.2519457823284306,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01379615,nearby_outside,1.1842135125444992,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01382050,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01382090,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01382100,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01382170,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01382200,inside,0.0,Reservoir outlet/reference station; reservoir level/storage is not rainfall
+Oak Ridge,oak_ridge,01382210,nearby_outside,0.05474058555335077,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01382280,nearby_outside,1.7862825352531029,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,01382300,nearby_outside,1.0412436475272357,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,410207074310401,nearby_outside,0.4602756630587887,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,410230074300001,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,410320074273801,nearby_outside,1.6727348717686408,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,410332074275401,nearby_outside,1.1580361354473787,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,410639074293001,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Oak Ridge,oak_ridge,411100074303301,nearby_outside,1.6560855887956505,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01368823,nearby_outside,1.8991220699703204,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01368935,nearby_outside,1.2519457823284306,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01379615,nearby_outside,1.1842135125449371,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382050,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382090,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382100,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382170,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382200,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382210,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382270,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382278,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382280,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382300,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382310,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382320,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382360,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382370,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382380,inside,0.0,Reservoir outlet/reference station; reservoir level/storage is not rainfall
+Charlotteburg,charlotteburg,01382381,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382385,nearby_outside,0.8876016223091586,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382392,nearby_outside,0.506029576507537,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382396,nearby_outside,0.4147403764677981,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382400,nearby_outside,0.6996005002260006,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382410,nearby_outside,0.7868301285316128,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382430,nearby_outside,0.8383861015437486,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382450,nearby_outside,0.9197032259308658,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382490,nearby_outside,1.066222159995348,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382500,nearby_outside,1.1928110410732726,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382830,nearby_outside,1.259471420498367,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382870,nearby_outside,1.0637076828232233,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,01382880,nearby_outside,1.4074926979590696,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,405913074275301,nearby_outside,0.9446343399370968,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410104074284101,nearby_outside,0.4086277327632243,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410148074252901,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410200074260000,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410207074270001,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410207074310401,nearby_outside,0.4602756630587887,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410230074300001,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410320074273801,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410332074275401,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410545074224801,nearby_outside,1.5288432948061963,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410615074240401,nearby_outside,0.653336152143946,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410639074233201,nearby_outside,1.1784584015266109,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410639074293001,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,410930074235901,nearby_outside,1.0434027017703733,Spatial inclusion only; variable and hydraulic connectivity require review
+Charlotteburg,charlotteburg,411100074303301,nearby_outside,1.656085588794736,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,01368823,nearby_outside,1.8991220699703204,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,01382090,nearby_outside,1.7806603362567712,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,01382278,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,01382280,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,01382300,inside,0.0,Reservoir outlet/reference station; reservoir level/storage is not rainfall
+Clinton,clinton,01382310,nearby_outside,1.6616771661576468,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,01382830,nearby_outside,1.259471420498367,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,01382870,nearby_outside,1.0637076828232233,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,01382880,nearby_outside,1.4074926979590696,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,410320074273801,nearby_outside,1.7222112072377747,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,410332074275401,nearby_outside,1.417854836536942,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,410615074240401,nearby_outside,1.1024096168887016,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,410639074233201,nearby_outside,1.1784584015266109,Spatial inclusion only; variable and hydraulic connectivity require review
+Clinton,clinton,410930074235901,nearby_outside,1.0434027017703733,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,01382360,nearby_outside,1.1187824553626005,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,01382392,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,01382396,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,01382400,inside,0.0,Reservoir outlet/reference station; reservoir level/storage is not rainfall
+Echo Lake,echo_lake,01382410,nearby_outside,0.04983123956452624,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,01382430,inside,0.0,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,01382450,nearby_outside,1.936999355822543,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,01382830,nearby_outside,1.8249129058827118,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,01385550,nearby_outside,1.0220716762656976,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,410208074233501,nearby_outside,0.760573871659428,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,410507074222901,nearby_outside,1.0328500009225698,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,410545074224801,nearby_outside,1.0441650985330289,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,410615074240401,nearby_outside,1.1273135240106393,Spatial inclusion only; variable and hydraulic connectivity require review
+Echo Lake,echo_lake,410639074233201,nearby_outside,1.9201283105738705,Spatial inclusion only; variable and hydraulic connectivity require review

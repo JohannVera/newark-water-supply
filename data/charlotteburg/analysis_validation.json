@@ -1,0 +1,9 @@
+{
+  "reservoir": "Charlotteburg",
+  "outlet_site": "01382380",
+  "area_km2": 147.4451381484325,
+  "published_area_sqmi": 56.2,
+  "difference_pct": 1.2969503660123172,
+  "method": "reused existing NLDI basin",
+  "boundary_valid": true
+}

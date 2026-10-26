@@ -1,0 +1,9 @@
+{
+  "reservoir": "Canistear",
+  "outlet_site": "01382100",
+  "area_km2": 15.045681778635924,
+  "published_area_sqmi": 6.08,
+  "difference_pct": -4.454437311281634,
+  "method": "reused existing NLDI basin",
+  "boundary_valid": true
+}

@@ -1,0 +1,13 @@
+{
+  "reservoir": "Echo Lake",
+  "outlet_site": "01382400",
+  "area_km2": 11.489945365307287,
+  "published_area_sqmi": 4.35,
+  "difference_pct": 1.983740392641753,
+  "method": "USGS NLDI unsimplified upstream basin; not a fresh DEM delineation",
+  "boundary_valid": true,
+  "buffer_km": 2,
+  "source": "https://api.water.usgs.gov/nldi/linked-data/nwissite/USGS-01382400/basin?simplified=false",
+  "published_area_source": "https://pubs.usgs.gov/wdr/WDR-NJ-02-1/pdf/vol1ver.1.01.pdf",
+  "note": "Review reservoir outlet snap and area differences before engineering use; transfers are not included"
+}

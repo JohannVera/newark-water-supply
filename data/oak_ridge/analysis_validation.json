@@ -1,0 +1,9 @@
+{
+  "reservoir": "Oak Ridge",
+  "outlet_site": "01382200",
+  "area_km2": 69.73492825369607,
+  "published_area_sqmi": 27.3,
+  "difference_pct": -1.374335807492133,
+  "method": "reused existing NLDI basin",
+  "boundary_valid": true
+}

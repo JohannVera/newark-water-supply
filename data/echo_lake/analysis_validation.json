@@ -1,0 +1,9 @@
+{
+  "reservoir": "Echo Lake",
+  "outlet_site": "01382400",
+  "area_km2": 11.489945365307287,
+  "published_area_sqmi": 4.35,
+  "difference_pct": 1.983740392641753,
+  "method": "reused existing NLDI basin",
+  "boundary_valid": true
+}

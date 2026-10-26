@@ -1,0 +1,13 @@
+{
+  "reservoir": "Charlotteburg",
+  "outlet_site": "01382380",
+  "area_km2": 147.4451381484325,
+  "published_area_sqmi": 56.2,
+  "difference_pct": 1.2969503660123172,
+  "method": "USGS NLDI unsimplified upstream basin; not a fresh DEM delineation",
+  "boundary_valid": true,
+  "buffer_km": 2,
+  "source": "https://api.water.usgs.gov/nldi/linked-data/nwissite/USGS-01382380/basin?simplified=false",
+  "published_area_source": "https://pubs.usgs.gov/wdr/WDR-NJ-02-1/pdf/vol1ver.1.01.pdf",
+  "note": "Review reservoir outlet snap and area differences before engineering use; transfers are not included"
+}

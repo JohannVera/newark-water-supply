@@ -1,0 +1,6 @@
+reservoir,outlet_site,area_km2,published_area_sqmi,difference_pct,method,boundary_valid
+Canistear,01382100,15.045681778635924,6.08,-4.454437311281634,reused existing NLDI basin,True
+Oak Ridge,01382200,69.73492825369607,27.3,-1.374335807492133,reused existing NLDI basin,True
+Charlotteburg,01382380,147.44513814843344,56.2,1.296950366012961,new NLDI unsimplified basin retrieval,True
+Clinton,01382300,28.82274638130065,10.5,5.985948504206218,new NLDI unsimplified basin retrieval,True
+Echo Lake,01382400,11.489945365306932,4.35,1.9837403926385777,new NLDI unsimplified basin retrieval,True
