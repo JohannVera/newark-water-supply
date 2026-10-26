@@ -1,0 +1,674 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Newark reservoir watersheds and USGS stations</name><description>Five USGS NLDI contributing watersheds and 49 USGS monitoring locations. Snapshot October 26, 2026. Satellite imagery is supplied by Google Earth when this file is opened. Nested basin areas must not be added. Reservoir markers identify reference stations, not water-surface extents.</description><LookAt><longitude>-74.46</longitude><latitude>41.08</latitude><altitude>0</altitude><heading>0</heading><tilt>0</tilt><range>25000</range><altitudeMode>relativeToGround</altitudeMode></LookAt><Style id="basin0"><LineStyle><color>ffca6515</color><width>3</width></LineStyle><PolyStyle><color>25ca6515</color><fill>1</fill></PolyStyle></Style><Folder><name>Canistear watershed</name><Placemark><name>Canistear contributing watershed</name><styleUrl>#basin0</styleUrl><description>NLDI upstream basin: 15.05 km². Reference USGS 01382100. Not a DEM delineation. Area difference from published drainage area: -4.45%.</description><MultiGeometry><Polygon><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-74.494613874,41.111973966,0 -74.494633493,41.112918189,0 -74.494290698,41.11301842000001,0 -74.49420990200001,41.11327953299998,0 -74.49284298,41.113442742,0 -74.489154077,41.11476544699999,0 -74.488597422,41.11589234,0 -74.488948348,41.11595247499998,0 -74.488867529,41.11621358599999,0 -74.489840279,41.11758536399999,0 -74.492242926,41.11844168199999,0 -74.492829003,41.118992117999994,0 -74.4920326,41.120613907999996,0 -74.494674219,41.12133280699999,0 -74.495089861,41.122228876,0 -74.494028625,41.123904129,0 -74.493855749,41.12477994499999,0 -74.49236504,41.128234392,0 -74.491011132,41.128765044999994,0 -74.489051262,41.12983524300001,0 -74.486734659,41.12994959,0 -74.485832402,41.131334150999976,0 -74.48480018,41.131739433,0 -74.484461822,41.13204878999999,0 -74.484206618,41.132462621,0 -74.484409317,41.13266598700002,0 -74.484986855,41.134866939999995,0 -74.483739068,41.13779592599999,0 -74.482036056,41.1388188,0 -74.481463095,41.141713066,0 -74.482116044,41.142887242,0 -74.481018354,41.143316756,0 -74.480228593,41.144747472,0 -74.481724295,41.146259402999995,0 -74.481243885,41.14680329,0 -74.480839976,41.14741721400001,0 -74.480723739,41.148519744,0 -74.479084078,41.151015369999996,0 -74.479707334,41.152434741,0 -74.479965068,41.15359813599999,0 -74.478394957,41.154134685999985,0 -74.476818894,41.155119188,0 -74.475818659,41.154245293,0 -74.473759793,41.15352507599999,0 -74.472578717,41.152694266,0 -74.47134521100001,41.152983376,0 -74.469309621,41.15189003799999,0 -74.469202175,41.15039144599998,0 -74.469066113,41.149115667,0 -74.468637363,41.149268803,0 -74.46735612,41.151724835,0 -74.465965909,41.15222119100001,0 -74.464615576,41.154042366999995,0 -74.464445509,41.15524311899999,0 -74.463595538,41.156549642,0 -74.462742341,41.158183234,0 -74.459384203,41.15814980099999,0 -74.458110907,41.158603855,0 -74.455665038,41.160472348,0 -74.453488336,41.161752144000005,0 -74.451021561,41.162011073,0 -74.448479824,41.160965896,0 -74.445548459,41.158588366999986,0 -74.445140853,41.15643873499999,0 -74.445194248,41.15574536399999,0 -74.445705594,41.154860964,0 -74.447319834,41.152377291,0 -74.448118697,41.151720552,0 -74.448803077,41.15066927,0 -74.451248954,41.14971293999999,0 -74.451675395,41.149157712,0 -74.45085553800001,41.148746334,0 -74.448575495,41.149056515,0 -74.448053446,41.148914287,0 -74.446986993,41.148832233,0 -74.445897764,41.148041583,0 -74.446609778,41.146584716,0 -74.445228623,41.14558067,0 -74.445744005,41.14496230999999,0 -74.446369392,41.144473474,0 -74.447405059,41.142364274,0 -74.447300633,41.14180710499999,0 -74.448325311,41.14159519500001,0 -74.449381057,41.140352019000005,0 -74.450207946,41.140107227,0 -74.450762796,41.13947308,0 -74.450317818,41.137555563,0 -74.45128291,41.13686507399999,0 -74.451284241,41.136264837,0 -74.449069626,41.135173630999994,0 -74.448558413,41.134214721,0 -74.449513014,41.13299932599999,0 -74.450541551,41.13065155,0 -74.451105724,41.130247817999994,0 -74.45164835,41.12946657599999,0 -74.452212507,41.129062841,0 -74.452836077,41.128020503999984,0 -74.454056245,41.127661679999996,0 -74.455132102,41.12611047000001,0 -74.453280211,41.125396280999986,0 -74.45230283,41.12450669,0 -74.452253567,41.122970774,0 -74.451984216,41.122423981000004,0 -74.45237517,41.120678976,0 -74.453267321,41.12066991,0 -74.456206894,41.120948851,0 -74.457265922,41.120662264,0 -74.456977671,41.11943123500001,0 -74.457044734,41.11873058399999,0 -74.457589917,41.11775429499999,0 -74.458789018,41.11746274099998,0 -74.459985806,41.117812041,0 -74.461595921,41.116641455,0 -74.462381429,41.115243446,0 -74.464614821,41.114707176,0 -74.466078777,41.113579155,0 -74.467286658,41.11230838,0 -74.46830879100001,41.11260616500001,0 -74.469270667,41.112371588,0 -74.472363984,41.11349504,0 -74.473626851,41.112120875,0 -74.47397164,41.10893838399999,0 -74.475011195,41.108303573,0 -74.47647069,41.107804139,0 -74.477193888,41.10681110299999,0 -74.478238235,41.105713097,0 -74.4797563,41.105732794000005,0 -74.48031593,41.104969485999995,0 -74.48288658,41.105169613,0 -74.483958683,41.10394422900001,0 -74.484191403,41.103863828,0 -74.484428035,41.104199759,0 -74.485135782,41.10491611,0 -74.485384986,41.10586425899999,0 -74.484244077,41.107162714999994,0 -74.483143083,41.10907808299999,0 -74.485616727,41.109349573,0 -74.488890904,41.11016849300001,0 -74.489402159,41.109710486,0 -74.490152124,41.110160144999995,0 -74.490630392,41.10973407400001,0 -74.490887814,41.109685816999985,0 -74.491608552,41.109091852999995,0 -74.493515351,41.108881547,0 -74.494449867,41.10892136700001,0 -74.494755437,41.10914663999999,0 -74.494937248,41.11046234,0 -74.494613874,41.111973966,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark><Folder><name>USGS stations — inside and within 2 km</name><Placemark><name>01368823 — Lake Lookout Brook Trib near Kempe NJ</name><description>Location: nearby_outside; distance to watershed: 1.96 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01368823/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.42263889,41.16180556,0</coordinates></Point></Placemark><Placemark><name>01382050 — Pequannock River near Stockholm NJ</name><description>Location: nearby_outside; distance to watershed: 1.61 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382050/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.51361111,41.11527778,0</coordinates></Point></Placemark><Placemark><name>01382090 — Pacock Bk near Highland Lakes NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382090/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4725,41.13638889,0</coordinates></Point></Placemark><Placemark><name>01382100 — Canistear Reservoir near Stockholm NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382100/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4919444,41.1111111,0</coordinates></Point></Placemark><Placemark><name>410639074293001 — Cannistear Reservoir USGS rain gage NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: Precipitation IV present; verify accumulation/reset convention and radar time-step alignment
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 67.82715361666666
+operational_flag: Recent IV found; telemetry and delivery SLA unverified; freshest series older than 60 minutes at retrieval
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410639074293001/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.49166667,41.11083333,0</coordinates></Point></Placemark></Folder></Folder><Style id="basin1"><LineStyle><color>ffaa248e</color><width>3</width></LineStyle><PolyStyle><color>25aa248e</color><fill>1</fill></PolyStyle></Style><Folder><name>Oak Ridge watershed</name><Placemark><name>Oak Ridge contributing watershed</name><styleUrl>#basin1</styleUrl><description>NLDI upstream basin: 69.73 km². Reference USGS 01382200. Not a DEM delineation. Area difference from published drainage area: -1.37%.</description><MultiGeometry><Polygon><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-74.50694074,41.039851741999996,0 -74.507305262,41.04022136199999,0 -74.50679472500002,41.043274087,0 -74.507049121,41.04392553899999,0 -74.508405996,41.044686442,0 -74.507563275,41.046667376,0 -74.507797111,41.04727341699999,0 -74.507958159,41.04787235499999,0 -74.508107234,41.04802462599999,0 -74.508688262,41.04778696599999,0 -74.50989681,41.04689969499999,0 -74.512220848,41.04368945000001,0 -74.513806684,41.03971267699999,0 -74.514677886,41.038703168,0 -74.515028452,41.03876322699999,0 -74.515231423,41.038890356999985,0 -74.515554651,41.039860712,0 -74.51575762600001,41.039987841,0 -74.515746212,41.04178041099999,0 -74.515799947,41.042876428,0 -74.515234158,41.044316294999994,0 -74.519060611,41.045709498,0 -74.521082077,41.04596226399999,0 -74.5238818,41.04780447499999,0 -74.525056991,41.049397471999995,0 -74.526540109,41.049937047,0 -74.527282624,41.050484057000006,0 -74.52804037,41.052813121999996,0 -74.528500639,41.05438678000001,0 -74.528812499,41.05623572499999,0 -74.528229729,41.057338747,0 -74.526996229,41.058288502,0 -74.526375814,41.05940119099999,0 -74.526862093,41.05984419,0 -74.527401855,41.06071194399999,0 -74.528158665,41.061399913999985,0 -74.532054046,41.06096582799999,0 -74.533345409,41.061342522,0 -74.534433379,41.061406260999995,0 -74.535311831,41.06166288200001,0 -74.535013752,41.06543279299999,0 -74.53532619,41.06614025099999,0 -74.535393667,41.067267572000006,0 -74.53586075800001,41.067530045,0 -74.537328555,41.067428911,0 -74.53863079,41.06754643499999,0 -74.538813687,41.068505559,0 -74.538350158,41.07189601099999,0 -74.537914335,41.072784745,0 -74.537846885,41.073265051,0 -74.536579141,41.073671057000006,0 -74.53556384,41.073894716999995,0 -74.535692146,41.074282867,0 -74.536928205,41.075045219,0 -74.53820036,41.07640115,0 -74.538602801,41.077621199999996,0 -74.538805926,41.077748295999996,0 -74.538598055,41.077860941,0 -74.536589828,41.080497529,0 -74.536086241,41.083026356,0 -74.537798649,41.085461679999995,0 -74.53948461000002,41.085645838000005,0 -74.539962759,41.086676934,0 -74.539746433,41.087190853,0 -74.538511543,41.087676640999995,0 -74.537448162,41.089513734,0 -74.535853801,41.090827233,0 -74.533107248,41.09153555799999,0 -74.533873756,41.09447390100001,0 -74.532487536,41.097206214,0 -74.532788401,41.09896092700001,0 -74.530404176,41.09989661499999,0 -74.529749271,41.100540644000006,0 -74.529207338,41.100987060999984,0 -74.529432967,41.10156477599999,0 -74.529799108,41.10293976300001,0 -74.52841801,41.10436491400001,0 -74.527958639,41.10669305599999,0 -74.526354703,41.10852148699999,0 -74.525587497,41.109154901,0 -74.524641012,41.110611442999975,0 -74.524279311,41.112454778,0 -74.52340564800001,41.113170931999996,0 -74.522350549,41.11421260200001,0 -74.523459296,41.115968136999996,0 -74.523269552,41.117852717999995,0 -74.524505451,41.119813635,0 -74.522159751,41.121742902,0 -74.52185735700002,41.12186193399999,0 -74.521160398,41.123089476,0 -74.517766803,41.12485876299999,0 -74.51712984900001,41.125873178999996,0 -74.51884567100001,41.128280367,0 -74.517130967,41.128895601,0 -74.51568189100001,41.130388622999995,0 -74.514629054,41.130768030999995,0 -74.513760146,41.131280938,0 -74.514158355,41.133373588,0 -74.513595328,41.134522029,0 -74.51405576600001,41.135610387,0 -74.512914076,41.137938973999994,0 -74.513019014,41.13849608800001,0 -74.512188341,41.13929586700001,0 -74.51080189,41.141575064999984,0 -74.511586302,41.143296701,0 -74.511775847,41.14421520599999,0 -74.512032248,41.144768166999995,0 -74.512074194,41.145641010000006,0 -74.513310387,41.146275681,0 -74.513251641,41.148183842,0 -74.514329635,41.14791073,0 -74.514918112,41.147894334,0 -74.514219309,41.15067680599999,0 -74.514054011,41.15255600399999,0 -74.513644765,41.153393551,0 -74.513873981,41.154594864,0 -74.515488987,41.156115922,0 -74.516276934,41.15665023299999,0 -74.515907264,41.15728512399999,0 -74.515378937,41.15772318,0 -74.514780067,41.15831456999998,0 -74.514431379,41.160058232000004,0 -74.514689612,41.162977598000005,0 -74.513848017,41.162672544,0 -74.510646769,41.163719902,0 -74.509451185,41.16564199199999,0 -74.50761824,41.16671071999999,0 -74.506249052,41.16687816,0 -74.505446763,41.16842502299999,0 -74.505133036,41.16876659999998,0 -74.504268441,41.16849836600001,0 -74.504036747,41.16812683199999,0 -74.502889756,41.167128228,0 -74.502106018,41.166598848,0 -74.501997207,41.166427708,0 -74.499589343,41.165732055999996,0 -74.499436626,41.162287126,0 -74.497904333,41.16120853900001,0 -74.495431083,41.16053810099999,0 -74.494138502,41.161372631,0 -74.493173165,41.162363073999984,0 -74.491619221,41.16292190899999,0 -74.49060041300001,41.167256538,0 -74.490413502,41.169389931999994,0 -74.490114958,41.169495633000004,0 -74.48955523,41.16954909299999,0 -74.489070528,41.16943494699999,0 -74.485119528,41.16929968899999,0 -74.482605804,41.16985948799999,0 -74.48318943300002,41.167248363,0 -74.483945662,41.166094318,0 -74.485096856,41.16448590299999,0 -74.484209613,41.16285487399999,0 -74.483261652,41.16043147500001,0 -74.480459684,41.160784976999985,0 -74.478536188,41.15968311899999,0 -74.477270146,41.158641251,0 -74.476595643,41.158785609,0 -74.475377696,41.15967680899999,0 -74.47436542400001,41.15889751699999,0 -74.4755148,41.157500473999995,0 -74.476506127,41.156669266,0 -74.476716894,41.156138243,0 -74.476818894,41.155119188,0 -74.475818659,41.154245293,0 -74.473759793,41.15352507599999,0 -74.472578717,41.152694266,0 -74.47134521100001,41.152983376,0 -74.469309621,41.15189003799999,0 -74.469202175,41.15039144599999,0 -74.469066113,41.149115667,0 -74.468637363,41.149268803,0 -74.46735612,41.151724835,0 -74.465965909,41.15222119100001,0 -74.464615576,41.154042366999995,0 -74.464445509,41.15524311899999,0 -74.463595538,41.156549642,0 -74.462742341,41.158183234,0 -74.459384203,41.15814980099999,0 -74.458110907,41.158603855,0 -74.455665038,41.160472348,0 -74.453488336,41.161752144000005,0 -74.451021561,41.162011073,0 -74.448479824,41.160965896,0 -74.445548459,41.158588366999986,0 -74.445140853,41.15643873499999,0 -74.445194248,41.15574536399999,0 -74.445705594,41.154860964,0 -74.447319834,41.152377291,0 -74.448118697,41.151720552,0 -74.448803077,41.15066927,0 -74.451248954,41.14971293999999,0 -74.451675395,41.149157712,0 -74.45085553800001,41.148746334,0 -74.448575495,41.149056515,0 -74.448053446,41.148914287,0 -74.446986993,41.148832233,0 -74.445897764,41.148041583,0 -74.446609778,41.146584716,0 -74.445228623,41.14558067,0 -74.445744005,41.14496230999999,0 -74.446369392,41.144473474,0 -74.447405059,41.142364274,0 -74.447300633,41.14180710499999,0 -74.448325311,41.14159519500001,0 -74.449381057,41.140352019000005,0 -74.450207946,41.140107227,0 -74.450762796,41.13947308,0 -74.450317818,41.137555563,0 -74.45128291,41.13686507399999,0 -74.451284241,41.136264837,0 -74.449069626,41.135173630999994,0 -74.448558413,41.134214721,0 -74.449513014,41.13299932599999,0 -74.450541551,41.13065155,0 -74.451105724,41.130247817999994,0 -74.45164835,41.12946657599999,0 -74.452212507,41.129062841,0 -74.452836077,41.128020504,0 -74.454056245,41.127661679999996,0 -74.455132102,41.12611047000001,0 -74.453280211,41.125396280999986,0 -74.45230283,41.12450669,0 -74.452253567,41.122970774,0 -74.451984216,41.122423981000004,0 -74.45237517,41.120678976,0 -74.453267321,41.12066991,0 -74.456206894,41.120948851,0 -74.457265922,41.120662264,0 -74.456977671,41.11943123500001,0 -74.457044734,41.11873058399999,0 -74.454541813,41.11790036199999,0 -74.454154942,41.116764104000005,0 -74.454368974,41.114807216,0 -74.456416465,41.113008203,0 -74.457659689,41.11017101999998,0 -74.458829896,41.109972277,0 -74.458654199,41.109030183999984,0 -74.456807869,41.108206304,0 -74.45705907,41.107321366,0 -74.457576776,41.105800097,0 -74.457360147,41.10517643699999,0 -74.458177973,41.101196447,0 -74.45592112,41.101623242,0 -74.454126145,41.10083925599999,0 -74.45383711,41.09989057999999,0 -74.453695737,41.09973204199999,0 -74.454162022,41.099214874999994,0 -74.453582057,41.098199064999996,0 -74.45520661400002,41.097241645999986,0 -74.456136738,41.09727672499999,0 -74.457331796,41.096903995,0 -74.460371895,41.09767501799999,0 -74.461561846,41.095157443000005,0 -74.462344942,41.09393416699999,0 -74.462435894,41.093417018,0 -74.461742506,41.09218953,0 -74.461708686,41.09175837800001,0 -74.461011965,41.091100663000006,0 -74.461979952,41.089187335999995,0 -74.464257343,41.08791012799999,0 -74.464390633,41.086939463,0 -74.465052921,41.085733061999996,0 -74.465291698,41.083993194,0 -74.464917974,41.08311274100001,0 -74.464943396,41.08198715899999,0 -74.463892122,41.08046195499999,0 -74.46379704,41.079054684000006,0 -74.462884012,41.077642344,0 -74.460027868,41.076746014,0 -74.460058957,41.075099387,0 -74.459898211,41.074276954999995,0 -74.459870522,41.07384471000001,0 -74.460166839,41.071695836,0 -74.46249531,41.070326575,0 -74.466810289,41.069809543,0 -74.46803169600001,41.06908903799999,0 -74.469435206,41.069196738,0 -74.470861364,41.069585418,0 -74.473327454,41.068702547,0 -74.474246631,41.06916315199999,0 -74.474579344,41.068815321,0 -74.474630156,41.06755128499999,0 -74.475601382,41.06648276999999,0 -74.477463254,41.066526185,0 -74.478342105,41.066818735999995,0 -74.480042572,41.066637872,0 -74.481278526,41.065030468999986,0 -74.48191080000001,41.063994007,0 -74.482497955,41.06397980100001,0 -74.483522399,41.063055714,0 -74.484989851,41.0596364,0 -74.486316879,41.058162759999995,0 -74.487231196,41.05740773499999,0 -74.488119517,41.056009213,0 -74.488250584,41.053887973,0 -74.490591046,41.053968223,0 -74.491357421,41.053803218000006,0 -74.49228214400001,41.053835053,0 -74.493808774,41.04719966,0 -74.494203155,41.04346108899999,0 -74.495102377,41.042903235,0 -74.495321919,41.042808781000005,0 -74.49681227400002,41.042484379,0 -74.498632864,41.041371366,0 -74.499962994,41.04121063000001,0 -74.501164812,41.040475869,0 -74.50186197,41.04023560299999,0 -74.50225948,41.039994445,0 -74.505528962,41.04031429,0 -74.50694074,41.039851741999996,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark><Folder><name>USGS stations — inside and within 2 km</name><Placemark><name>01368823 — Lake Lookout Brook Trib near Kempe NJ</name><description>Location: nearby_outside; distance to watershed: 1.96 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01368823/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.42263889,41.16180556,0</coordinates></Point></Placemark><Placemark><name>01368935 — Town Brook tributary near Highland Lakes NJ</name><description>Location: nearby_outside; distance to watershed: 1.25 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01368935/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4836111,41.1811111,0</coordinates></Point></Placemark><Placemark><name>01379615 — Russia Brook at Russia NJ</name><description>Location: nearby_outside; distance to watershed: 1.18 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01379615/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.53138889,41.0386111,0</coordinates></Point></Placemark><Placemark><name>01382050 — Pequannock River near Stockholm NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382050/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.51361111,41.11527778,0</coordinates></Point></Placemark><Placemark><name>01382090 — Pacock Bk near Highland Lakes NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382090/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4725,41.13638889,0</coordinates></Point></Placemark><Placemark><name>01382100 — Canistear Reservoir near Stockholm NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382100/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4919444,41.1111111,0</coordinates></Point></Placemark><Placemark><name>01382170 — Pequannock River at NJ Route 23 near Oak Ridge NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382170/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4897222,41.07777778,0</coordinates></Point></Placemark><Placemark><name>01382200 — Oak Ridge Reservoir at Oak Ridge NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382200/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.5011111,41.04055556,0</coordinates></Point></Placemark><Placemark><name>01382210 — Pequannock River at Oak Ridge NJ</name><description>Location: nearby_outside; distance to watershed: 0.05 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 37.82715361666667
+operational_flag: Recent IV found; telemetry and delivery SLA unverified
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382210/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.5016667,41.0397222,0</coordinates></Point></Placemark><Placemark><name>01382280 — Mossmans Brook near Uttertown NJ</name><description>Location: nearby_outside; distance to watershed: 1.79 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382280/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4344444,41.10694444,0</coordinates></Point></Placemark><Placemark><name>01382300 — Clinton Reservoir near Newfoundland NJ</name><description>Location: nearby_outside; distance to watershed: 1.04 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382300/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4475,41.07444444,0</coordinates></Point></Placemark><Placemark><name>410207074310401 — 270913-- White Rock 2</name><description>Location: nearby_outside; distance to watershed: 0.46 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410207074310401/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.51790751,41.03523641,0</coordinates></Point></Placemark><Placemark><name>410230074300001 — Oak Ridge Reservoir USGS rain gage NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: Precipitation IV present; verify accumulation/reset convention and radar time-step alignment
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 67.82715361666666
+operational_flag: Recent IV found; telemetry and delivery SLA unverified; freshest series older than 60 minutes at retrieval
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410230074300001/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.5,41.04166667,0</coordinates></Point></Placemark><Placemark><name>410320074273801 — 310141-- SUS 0136 Dom</name><description>Location: nearby_outside; distance to watershed: 1.67 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410320074273801/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.45961111,41.05541667,0</coordinates></Point></Placemark><Placemark><name>410332074275401 — 310166-- Institutional 1</name><description>Location: nearby_outside; distance to watershed: 1.16 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410332074275401/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.46460022,41.05898603,0</coordinates></Point></Placemark><Placemark><name>410639074293001 — Cannistear Reservoir USGS rain gage NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: Precipitation IV present; verify accumulation/reset convention and radar time-step alignment
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 67.82715361666666
+operational_flag: Recent IV found; telemetry and delivery SLA unverified; freshest series older than 60 minutes at retrieval
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410639074293001/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.49166667,41.11083333,0</coordinates></Point></Placemark><Placemark><name>411100074303301 — 370415-- PW 4</name><description>Location: nearby_outside; distance to watershed: 1.66 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-411100074303301/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.50876958,41.18342902,0</coordinates></Point></Placemark></Folder></Folder><Style id="basin2"><LineStyle><color>ff0051e6</color><width>3</width></LineStyle><PolyStyle><color>250051e6</color><fill>1</fill></PolyStyle></Style><Folder><name>Charlotteburg watershed</name><Placemark><name>Charlotteburg contributing watershed</name><styleUrl>#basin2</styleUrl><description>NLDI upstream basin: 147.45 km². Reference USGS 01382380. Not a DEM delineation. Area difference from published drainage area: +1.30%.</description><MultiGeometry><Polygon><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-74.416494558,41.008916366,0 -74.416413594,41.009177406999996,0 -74.416063259,41.00911707899999,0 -74.416144224,41.008856038,0 -74.416494558,41.008916366,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-74.41633263,41.009438448,0 -74.416413594,41.009177406999996,0 -74.41676393,41.009237734,0 -74.416682967,41.00949877600001,0 -74.41633263,41.009438448,0</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-74.477429985,41.006898457000005,0 -74.478480788,41.007751193,0 -74.477793961,41.009151896,0 -74.476361322,41.010074423000006,0 -74.475430665,41.00982118499999,0 -74.474641681,41.010004684,0 -74.472811807,41.01189431400002,0 -74.470795428,41.01239220400001,0 -74.468913342,41.013499548,0 -74.468349468,41.01425976699999,0 -74.472500489,41.018790789,0 -74.473212078,41.019715264999995,0 -74.47252688500001,41.021575950999996,0 -74.472328375,41.02236671199999,0 -74.472092325,41.02301784899999,0 -74.47231958,41.023662618,0 -74.472450167,41.024862168000006,0 -74.470420054,41.026018289,0 -74.467416178,41.02840126400001,0 -74.465550825,41.02889395399999,0 -74.464924631,41.029538236,0 -74.466334847,41.029714917999996,0 -74.466837195,41.02982482,0 -74.467632555,41.03150372900001,0 -74.470048627,41.03228807299999,0 -74.472777231,41.034541588,0 -74.473747545,41.03412711499999,0 -74.474794906,41.033370360999996,0 -74.475426252,41.033100682,0 -74.477817506,41.032455377999995,0 -74.478970388,41.03299801,0 -74.481006793,41.033611703000005,0 -74.481963472,41.03406156,0 -74.483041485,41.034510747999995,0 -74.48545034,41.03431188399999,0 -74.486765565,41.034049939999996,0 -74.48755513400002,41.033921195999994,0 -74.491982613,41.032098826,0 -74.494131985,41.03175006,0 -74.496103559,41.031080801,0 -74.497120067,41.031019921,0 -74.49747058,41.031080028,0 -74.49910573,41.03123798099999,0 -74.502707609,41.031469978,0 -74.504105562,41.033627697,0 -74.503246872,41.035380315,0 -74.503351582,41.035937387000004,0 -74.503499677,41.036092722,0 -74.504007547,41.036782265,0 -74.506818951,41.039685887,0 -74.50694074,41.039851741999996,0 -74.507305262,41.04022136199999,0 -74.50679472500002,41.04327408699999,0 -74.507049121,41.04392553899999,0 -74.508405996,41.044686442,0 -74.507563275,41.046667376,0 -74.507797111,41.04727341699999,0 -74.507958159,41.04787235499999,0 -74.508107234,41.04802462599999,0 -74.508688262,41.04778696599999,0 -74.50989681,41.04689969499999,0 -74.512220848,41.04368945000001,0 -74.513806684,41.03971267699999,0 -74.514677886,41.038703168,0 -74.515028452,41.03876322699999,0 -74.515231423,41.038890356999985,0 -74.515554651,41.039860712,0 -74.51575762600001,41.039987841,0 -74.515746212,41.04178041099999,0 -74.515799947,41.042876428,0 -74.515234158,41.044316294999994,0 -74.519060611,41.045709498,0 -74.521082077,41.04596226399999,0 -74.5238818,41.04780447499999,0 -74.525056991,41.049397471999995,0 -74.526540109,41.049937047,0 -74.527282624,41.050484057000006,0 -74.52804037,41.052813121999996,0 -74.528500639,41.05438678000001,0 -74.528812499,41.05623572499999,0 -74.528229729,41.057338747,0 -74.526996229,41.058288502,0 -74.526375814,41.05940119099999,0 -74.526862093,41.05984419,0 -74.527401855,41.06071194399999,0 -74.528158665,41.061399913999985,0 -74.532054046,41.06096582799999,0 -74.533345409,41.061342522,0 -74.534433379,41.061406260999995,0 -74.535311831,41.06166288200001,0 -74.535013752,41.06543279299999,0 -74.53532619,41.06614025099999,0 -74.535393667,41.067267572000006,0 -74.53586075800001,41.067530045,0 -74.537328555,41.067428911,0 -74.53863079,41.06754643499999,0 -74.538813687,41.068505559,0 -74.538350158,41.07189601099999,0 -74.537914335,41.072784745,0 -74.537846885,41.073265051,0 -74.536579141,41.073671057000006,0 -74.53556384,41.073894716999995,0 -74.535692146,41.074282867,0 -74.536928205,41.075045219,0 -74.53820036,41.07640115,0 -74.538602801,41.077621199999996,0 -74.538805926,41.077748295999996,0 -74.538598055,41.077860941,0 -74.536589828,41.080497529,0 -74.536086241,41.083026356,0 -74.537798649,41.085461679999995,0 -74.53948461000002,41.085645838000005,0 -74.539962759,41.086676934,0 -74.539746433,41.087190853,0 -74.538511543,41.087676640999995,0 -74.537448162,41.089513734,0 -74.535853801,41.090827233,0 -74.533107248,41.09153555799999,0 -74.533873756,41.09447390100001,0 -74.532487536,41.097206214,0 -74.532788401,41.09896092700001,0 -74.530404176,41.09989661499999,0 -74.529749271,41.100540644000006,0 -74.529207338,41.100987060999984,0 -74.529432967,41.10156477599999,0 -74.529799108,41.10293976300001,0 -74.52841801,41.10436491400001,0 -74.527958639,41.10669305599999,0 -74.526354703,41.10852148699999,0 -74.525587497,41.109154901,0 -74.524641012,41.11061144299999,0 -74.524279311,41.112454778,0 -74.52340564800001,41.113170931999996,0 -74.522350549,41.11421260200001,0 -74.523459296,41.115968136999996,0 -74.523269552,41.117852717999995,0 -74.524505451,41.119813635,0 -74.522159751,41.121742902,0 -74.52185735700002,41.12186193399999,0 -74.521160398,41.123089476,0 -74.517766803,41.12485876299999,0 -74.51712984900001,41.125873178999996,0 -74.51884567100001,41.128280367,0 -74.517130967,41.128895601,0 -74.51568189100001,41.130388622999995,0 -74.514629054,41.130768030999995,0 -74.513760146,41.131280938,0 -74.514158355,41.133373588,0 -74.513595328,41.134522029,0 -74.51405576600001,41.135610387,0 -74.512914076,41.137938973999994,0 -74.513019014,41.13849608800001,0 -74.512188341,41.13929586700001,0 -74.51080189,41.141575064999984,0 -74.511586302,41.143296701,0 -74.511775847,41.14421520599999,0 -74.512032248,41.144768166999995,0 -74.512074194,41.145641010000006,0 -74.513310387,41.146275681,0 -74.513251641,41.148183842,0 -74.514329635,41.14791073,0 -74.514918112,41.147894334,0 -74.514219309,41.15067680599999,0 -74.514054011,41.15255600399999,0 -74.513644765,41.153393551,0 -74.513873981,41.154594864,0 -74.515488987,41.156115922,0 -74.516276934,41.15665023299999,0 -74.515907264,41.15728512399999,0 -74.515378937,41.15772318,0 -74.514780067,41.15831456999999,0 -74.514431379,41.160058232000004,0 -74.514689612,41.162977598000005,0 -74.513848017,41.162672544,0 -74.510646769,41.163719902,0 -74.509451185,41.16564199199999,0 -74.50761824,41.16671071999999,0 -74.506249052,41.16687816,0 -74.505446763,41.16842502299999,0 -74.505133036,41.168766599999984,0 -74.504268441,41.16849836600001,0 -74.504036747,41.16812683199999,0 -74.502889756,41.167128228,0 -74.502106018,41.166598848,0 -74.501997207,41.166427708,0 -74.499589343,41.165732055999996,0 -74.499436626,41.162287126,0 -74.497904333,41.16120853900001,0 -74.495431083,41.16053810099999,0 -74.494138502,41.161372631,0 -74.493173165,41.162363073999984,0 -74.491619221,41.16292190899999,0 -74.49060041300001,41.167256538,0 -74.490413502,41.169389931999994,0 -74.490114958,41.169495633000004,0 -74.48955523,41.16954909299999,0 -74.489070528,41.16943494699999,0 -74.485119528,41.16929968899999,0 -74.482605804,41.16985948799999,0 -74.48318943300002,41.167248363,0 -74.483945662,41.166094318,0 -74.485096856,41.16448590299999,0 -74.484209613,41.16285487399999,0 -74.483261652,41.16043147500001,0 -74.480459684,41.160784976999985,0 -74.478536188,41.15968311899999,0 -74.477270146,41.158641251,0 -74.476595643,41.158785609,0 -74.475377696,41.15967680899999,0 -74.47436542400001,41.15889751699999,0 -74.4755148,41.157500473999995,0 -74.476506127,41.156669266,0 -74.476716894,41.156138243,0 -74.476818894,41.155119188,0 -74.475818659,41.154245293,0 -74.473759793,41.15352507599999,0 -74.472578717,41.152694266,0 -74.47134521100001,41.152983376,0 -74.469309621,41.15189003799999,0 -74.469202175,41.15039144599999,0 -74.469066113,41.149115667,0 -74.468637363,41.149268803,0 -74.46735612,41.151724835,0 -74.465965909,41.15222119100001,0 -74.464615576,41.154042366999995,0 -74.464445509,41.15524311899999,0 -74.463595538,41.156549642,0 -74.462742341,41.158183234,0 -74.459384203,41.15814980099999,0 -74.458110907,41.158603855,0 -74.455665038,41.160472348,0 -74.453488336,41.161752144000005,0 -74.451021561,41.162011073,0 -74.448479824,41.160965896,0 -74.445548459,41.158588366999986,0 -74.445140853,41.15643873499999,0 -74.445194248,41.15574536399999,0 -74.445705594,41.154860964,0 -74.447319834,41.152377291,0 -74.448118697,41.151720552,0 -74.448803077,41.15066927,0 -74.451248954,41.14971293999999,0 -74.451675395,41.149157712,0 -74.45085553800001,41.148746334,0 -74.448575495,41.149056515,0 -74.448053446,41.148914287,0 -74.446986993,41.148832233,0 -74.445897764,41.148041583,0 -74.446609778,41.146584716,0 -74.445228623,41.14558067,0 -74.445744005,41.14496230999999,0 -74.446369392,41.144473474,0 -74.447405059,41.142364274,0 -74.447300633,41.14180710499999,0 -74.446729173,41.141861552999984,0 -74.446127022,41.14145634499999,0 -74.444786348,41.14130892099999,0 -74.443625335,41.14034048300001,0 -74.441893893,41.14050298499999,0 -74.440804487,41.14157491400001,0 -74.439041837,41.142265910000006,0 -74.436958561,41.141774971,0 -74.435366349,41.141600362999995,0 -74.43338801,41.14026907200001,0 -74.430846406,41.13998933700001,0 -74.431248557,41.141019858,0 -74.430586151,41.14443709099999,0 -74.429485456,41.14455847199999,0 -74.426680923,41.14443654199999,0 -74.424533628,41.144672410999995,0 -74.422003882,41.14452132,0 -74.421594441,41.144146943,0 -74.421621843,41.143017231,0 -74.421541219,41.14193770899999,0 -74.421704279,41.13985051400001,0 -74.420159331,41.13844520199999,0 -74.420111732,41.13768718699999,0 -74.418658511,41.13762325199999,0 -74.418194654,41.13790769599999,0 -74.417580878,41.139325504999995,0 -74.415611244,41.14094210299999,0 -74.414729332,41.141288958999986,0 -74.413988323,41.142558133999984,0 -74.413164554,41.14323834,0 -74.411389039,41.14393216900001,0 -74.409888679,41.145041773999985,0 -74.409066639,41.146310979,0 -74.407975602,41.147553268,0 -74.406126559,41.150007018,0 -74.405821501,41.150356351,0 -74.401846609,41.14940738799999,0 -74.400650664,41.148515188,0 -74.401145358,41.145605079,0 -74.397300553,41.144628878999995,0 -74.397852252,41.143337917,0 -74.396847044,41.142910355,0 -74.396605532,41.142572287,0 -74.39560066,41.14214369599999,0 -74.396395249,41.140889164,0 -74.396241686,41.140732748,0 -74.396580472,41.14042362099998,0 -74.397660236,41.1377689,0 -74.39799900200002,41.13745977,0 -74.397810731,41.137322094,0 -74.397708312,41.136573934999994,0 -74.396309416,41.135963662,0 -74.393319735,41.138685055,0 -74.39228052300001,41.139945817,0 -74.392030085,41.140008002,0 -74.391841531,41.139425491000004,0 -74.392372958,41.138515671,0 -74.393930251,41.136907895000014,0 -74.39551296,41.134475111,0 -74.396899757,41.13334077199999,0 -74.397067196,41.13248649599999,0 -74.397827103,41.13071142399999,0 -74.397084698,41.13053532799999,0 -74.396564964,41.13073917900001,0 -74.39542504400002,41.131358418,0 -74.394682147,41.131276763999985,0 -74.393610189,41.130674364,0 -74.39169565800002,41.129382241,0 -74.390634725,41.129041693,0 -74.391479465,41.12790435499999,0 -74.393793099,41.126092709999995,0 -74.394390019,41.12528765199999,0 -74.394631656,41.125216438,0 -74.395532427,41.12460441,0 -74.396633381,41.123311341,0 -74.397469387,41.122517347,0 -74.398931367,41.121456142999996,0 -74.400234498,41.120088279,0 -74.400827272,41.119630574000006,0 -74.401888843,41.11848219299999,0 -74.40216913000002,41.118100705,0 -74.402392926,41.11801244699999,0 -74.403676801,41.117059158,0 -74.405216125,41.115543919000004,0 -74.407280673,41.11417811700001,0 -74.407859277,41.11343113099999,0 -74.408387939,41.112993536,0 -74.409797948,41.11142917699999,0 -74.412248984,41.110082552,0 -74.41350268800001,41.108351642,0 -74.415011868,41.106634594000006,0 -74.416947058,41.104716876000005,0 -74.417479404,41.104508712999994,0 -74.417831873,41.10385710900001,0 -74.418235545,41.103263725999994,0 -74.418191986,41.102530054000006,0 -74.416023444,41.101387951999996,0 -74.415046886,41.100683941999996,0 -74.414323781,41.100390909,0 -74.412252394,41.102189534999994,0 -74.410629551,41.10317583100001,0 -74.409051419,41.10206640999999,0 -74.408683338,41.10122531899999,0 -74.408527601,41.10051852,0 -74.405320576,41.099523016999996,0 -74.404231368,41.097751034,0 -74.403394888,41.09750716799999,0 -74.401320533,41.097382186,0 -74.399949648,41.096182593,0 -74.39778507500002,41.095344808,0 -74.398109595,41.094300614,0 -74.398910906,41.093468491,0 -74.400957655,41.09143379699999,0 -74.402140557,41.089410465,0 -74.404868911,41.08625876100001,0 -74.405562621,41.084583087000006,0 -74.405820009,41.084535001999996,0 -74.406507282,41.083920653,0 -74.406762765,41.08350699500001,0 -74.407101231,41.08319785599999,0 -74.408156196,41.081957123,0 -74.41071632600001,41.075702013,0 -74.412102369,41.07346874600001,0 -74.412767712,41.071660388000005,0 -74.41314712,41.070159469000004,0 -74.41408990600002,41.068647006999996,0 -74.414493328,41.067068588,0 -74.415676532,41.064706986,0 -74.41582675,41.058701189999994,0 -74.415522771,41.05784000499999,0 -74.415348363,41.057249258,0 -74.414604913,41.05516411599999,0 -74.41521596400001,41.051726583,0 -74.414984928,41.051076675,0 -74.415941928,41.049387331,0 -74.416477843,41.048236731,0 -74.416847835,41.047602188000006,0 -74.41737595,41.04716458,0 -74.418763877,41.043807086,0 -74.42101793,41.04256654299999,0 -74.42325028,41.04078193699999,0 -74.424057688,41.04046649499999,0 -74.423416001,41.03935496199999,0 -74.42409578,41.035935800000004,0 -74.424583541,41.034790896,0 -74.424987312,41.031703439,0 -74.424330586,41.03006405899998,0 -74.42113192,41.03018599200001,0 -74.419613781,41.02912980999999,0 -74.41950538,41.028958620999994,0 -74.419465739,41.028528577,0 -74.419065664,41.02749403799999,0 -74.419222344,41.026710015999996,0 -74.419547392,41.025941012,0 -74.4201327,41.023012639,0 -74.421098203,41.02263316399999,0 -74.420458559,41.02168307099999,0 -74.417964943,41.021448222000004,0 -74.417442631,41.02028736199998,0 -74.415296311,41.01818948700001,0 -74.415320389,41.01588095900001,0 -74.416690166,41.012896493,0 -74.416945323,41.01049350400001,0 -74.416682967,41.00949877600001,0 -74.419296361,41.01007121599999,0 -74.42080611,41.01048367399999,0 -74.421533086,41.008920278999994,0 -74.422878318,41.00794775600001,0 -74.424444941,41.007525697000005,0 -74.425115584,41.006683015,0 -74.42650588,41.005732192,0 -74.425769165,41.003663364999994,0 -74.426710796,41.002150894,0 -74.427259474,41.00242686299999,0 -74.428982447,41.002560151999994,0 -74.431938598,41.003365354,0 -74.434466356,41.00302266500001,0 -74.436596835,41.001766266999994,0 -74.437634584,41.002287442,0 -74.438653766,41.00236610999999,0 -74.440211901,41.001449431000005,0 -74.441073582,41.001720099999986,0 -74.442778274,41.003326915999985,0 -74.442502884,41.00529559999998,0 -74.442663941,41.00544574599999,0 -74.442952614,41.005072207,0 -74.444342634,41.004232894999994,0 -74.445171753,41.003417410000004,0 -74.446885726,41.002481275,0 -74.4479782,41.003216908999995,0 -74.449194626,41.001857939,0 -74.451689219,41.001863668,0 -74.452561844,41.001521775,0 -74.453664545,41.000920843,0 -74.454636752,41.000778647,0 -74.456014306,41.000481645,0 -74.45675778,41.000445112,0 -74.45407095400002,40.996777225,0 -74.454514925,40.99482146199999,0 -74.45707535,40.99327250399999,0 -74.462223975,40.991164145999996,0 -74.462882166,40.98823565099999,0 -74.463249163,40.98781326999998,0 -74.464865645,40.988308019,0 -74.466629543,40.988233077,0 -74.467102166,40.988475388,0 -74.466823373,40.988854937,0 -74.465682179,40.990009942,0 -74.465604128,40.99056038500001,0 -74.466469383,40.992067682999995,0 -74.466887636,40.99384614699999,0 -74.466189563,40.995264187,0 -74.466349662,40.99754175099999,0 -74.466081986,40.999450467,0 -74.46616231,40.999861652999996,0 -74.467783842,41.000769608,0 -74.471485815,41.001176765000004,0 -74.473884859,41.002963523999995,0 -74.473843756,41.003655638,0 -74.47488108200001,41.00526004999999,0 -74.476323333,41.005853538,0 -74.477429985,41.006898457000005,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark><Folder><name>USGS stations — inside and within 2 km</name><Placemark><name>01368823 — Lake Lookout Brook Trib near Kempe NJ</name><description>Location: nearby_outside; distance to watershed: 1.90 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01368823/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.42263889,41.16180556,0</coordinates></Point></Placemark><Placemark><name>01368935 — Town Brook tributary near Highland Lakes NJ</name><description>Location: nearby_outside; distance to watershed: 1.25 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01368935/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4836111,41.1811111,0</coordinates></Point></Placemark><Placemark><name>01379615 — Russia Brook at Russia NJ</name><description>Location: nearby_outside; distance to watershed: 1.18 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01379615/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.53138889,41.0386111,0</coordinates></Point></Placemark><Placemark><name>01382050 — Pequannock River near Stockholm NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382050/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.51361111,41.11527778,0</coordinates></Point></Placemark><Placemark><name>01382090 — Pacock Bk near Highland Lakes NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382090/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4725,41.13638889,0</coordinates></Point></Placemark><Placemark><name>01382100 — Canistear Reservoir near Stockholm NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382100/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4919444,41.1111111,0</coordinates></Point></Placemark><Placemark><name>01382170 — Pequannock River at NJ Route 23 near Oak Ridge NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382170/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4897222,41.07777778,0</coordinates></Point></Placemark><Placemark><name>01382200 — Oak Ridge Reservoir at Oak Ridge NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382200/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.5011111,41.04055556,0</coordinates></Point></Placemark><Placemark><name>01382210 — Pequannock River at Oak Ridge NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 37.82715361666667
+operational_flag: Recent IV found; telemetry and delivery SLA unverified
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382210/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.5016667,41.0397222,0</coordinates></Point></Placemark><Placemark><name>01382270 — Pequannock River at NJ Route 23 at Newfoundland NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382270/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.45138889,41.05305556,0</coordinates></Point></Placemark><Placemark><name>01382278 — Mossmans Brook tributary near Uttertown NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382278/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4261111,41.12194444,0</coordinates></Point></Placemark><Placemark><name>01382280 — Mossmans Brook near Uttertown NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382280/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4344444,41.10694444,0</coordinates></Point></Placemark><Placemark><name>01382300 — Clinton Reservoir near Newfoundland NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382300/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4475,41.07444444,0</coordinates></Point></Placemark><Placemark><name>01382310 — Clinton Brook at La Rue Road at Newfoundland NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382310/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.44027778,41.0597222,0</coordinates></Point></Placemark><Placemark><name>01382320 — Pequannock R below Clinton Bk nr Newfoundland NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382320/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4419167,41.04794444,0</coordinates></Point></Placemark><Placemark><name>01382360 — Kanouse Bk at Newfoundland NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382360/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4297222,41.0472222,0</coordinates></Point></Placemark><Placemark><name>01382370 — Charlotteburg Re div at Charlotteburg NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382370/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4247222,41.0261111,0</coordinates></Point></Placemark><Placemark><name>01382380 — Charlotteburg Re at Charlotteburg NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382380/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4247222,41.0261111,0</coordinates></Point></Placemark><Placemark><name>01382381 — Pequannock River at Charlotteburg NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382381/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4244444,41.02666667,0</coordinates></Point></Placemark><Placemark><name>01382385 — Pequannock River at Green Pond Junction NJ</name><description>Location: nearby_outside; distance to watershed: 0.89 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 37.82715361666667
+operational_flag: Recent IV found; telemetry and delivery SLA unverified
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382385/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.40833333,41.02472222,0</coordinates></Point></Placemark><Placemark><name>01382392 — Echo Lake 4800' upstream of dam near  Macopin NJ</name><description>Location: nearby_outside; distance to watershed: 0.51 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382392/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4097222,41.06194444,0</coordinates></Point></Placemark><Placemark><name>01382396 — Echo Lake 1500' upstream of dam near  Macopin NJ</name><description>Location: nearby_outside; distance to watershed: 0.41 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382396/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.41,41.05305556,0</coordinates></Point></Placemark><Placemark><name>01382400 — Echo Lk near Charlotteburg NJ</name><description>Location: nearby_outside; distance to watershed: 0.70 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382400/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4069444,41.04944444,0</coordinates></Point></Placemark><Placemark><name>01382410 — Macopin River at Echo Lake NJ</name><description>Location: nearby_outside; distance to watershed: 0.79 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382410/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4066667,41.04777778,0</coordinates></Point></Placemark><Placemark><name>01382430 — Mathews Brook diversion near Macopin NJ</name><description>Location: nearby_outside; distance to watershed: 0.84 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382430/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4055556,41.0486111,0</coordinates></Point></Placemark><Placemark><name>01382450 — Macopin R at Macopin Re NJ</name><description>Location: nearby_outside; distance to watershed: 0.92 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382450/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4083333,41.0258333,0</coordinates></Point></Placemark><Placemark><name>01382490 — Pequannock River div at Macopin Intake Dam NJ</name><description>Location: nearby_outside; distance to watershed: 1.07 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382490/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.40277778,41.0197222,0</coordinates></Point></Placemark><Placemark><name>01382500 — Pequannock River at Macopin Intake Dam NJ</name><description>Location: nearby_outside; distance to watershed: 1.19 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 5.0
+freshest_observation_age_minutes: 12.827153616666669
+operational_flag: Recent IV found; telemetry and delivery SLA unverified
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382500/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.40111111,41.01833333,0</coordinates></Point></Placemark><Placemark><name>01382830 — Belcher C at Dockerty Hollow Rd nr West Milford NJ</name><description>Location: nearby_outside; distance to watershed: 1.26 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382830/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.3916667,41.11,0</coordinates></Point></Placemark><Placemark><name>01382870 — Belcher C at Stowaway Road at W Milford NJ</name><description>Location: nearby_outside; distance to watershed: 1.06 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382870/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.3797222,41.12416667,0</coordinates></Point></Placemark><Placemark><name>01382880 — Belcher Creek trib at West Milford NJ</name><description>Location: nearby_outside; distance to watershed: 1.41 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382880/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.3758333,41.135,0</coordinates></Point></Placemark><Placemark><name>405913074275301 — 271196-- Dom</name><description>Location: nearby_outside; distance to watershed: 0.94 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-405913074275301/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.44709899,40.98843133,0</coordinates></Point></Placemark><Placemark><name>410104074284101 — 271853-- SUS 0258 Dom</name><description>Location: nearby_outside; distance to watershed: 0.41 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410104074284101/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.47711111,41.01747222,0</coordinates></Point></Placemark><Placemark><name>410148074252901 — Charlottesburg USGS rain gage NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: Precipitation IV present; verify accumulation/reset convention and radar time-step alignment
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 67.82715361666666
+operational_flag: Recent IV found; telemetry and delivery SLA unverified; freshest series older than 60 minutes at retrieval
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410148074252901/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.42472222,41.03,0</coordinates></Point></Placemark><Placemark><name>410200074260000 — Charlotteburg Reservoir NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410200074260000/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4329321,41.0334307,0</coordinates></Point></Placemark><Placemark><name>410207074270001 — 270028-- Green Pond 5 Obs</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 67.82715361666666
+operational_flag: Recent IV found; telemetry and delivery SLA unverified; freshest series older than 60 minutes at retrieval
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410207074270001/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4495994,41.03537519,0</coordinates></Point></Placemark><Placemark><name>410207074310401 — 270913-- White Rock 2</name><description>Location: nearby_outside; distance to watershed: 0.46 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410207074310401/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.51790751,41.03523641,0</coordinates></Point></Placemark><Placemark><name>410230074300001 — Oak Ridge Reservoir USGS rain gage NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: Precipitation IV present; verify accumulation/reset convention and radar time-step alignment
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 67.82715361666666
+operational_flag: Recent IV found; telemetry and delivery SLA unverified; freshest series older than 60 minutes at retrieval
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410230074300001/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.5,41.04166667,0</coordinates></Point></Placemark><Placemark><name>410320074273801 — 310141-- SUS 0136 Dom</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410320074273801/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.45961111,41.05541667,0</coordinates></Point></Placemark><Placemark><name>410332074275401 — 310166-- Institutional 1</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410332074275401/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.46460022,41.05898603,0</coordinates></Point></Placemark><Placemark><name>410545074224801 — 310054-- 1 Of 3</name><description>Location: nearby_outside; distance to watershed: 1.53 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410545074224801/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.37959721,41.09592972,0</coordinates></Point></Placemark><Placemark><name>410615074240401 — 310012-- Crescent Pk 1</name><description>Location: nearby_outside; distance to watershed: 0.65 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410615074240401/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.40070921,41.104263,0</coordinates></Point></Placemark><Placemark><name>410639074233201 — 310057-- Concord Rd-Bald Eagle</name><description>Location: nearby_outside; distance to watershed: 1.18 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410639074233201/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.39182003,41.11092955,0</coordinates></Point></Placemark><Placemark><name>410639074293001 — Cannistear Reservoir USGS rain gage NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: Precipitation IV present; verify accumulation/reset convention and radar time-step alignment
+observed_modal_intervals_minutes: 15.0
+freshest_observation_age_minutes: 67.82715361666666
+operational_flag: Recent IV found; telemetry and delivery SLA unverified; freshest series older than 60 minutes at retrieval
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410639074293001/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.49166667,41.11083333,0</coordinates></Point></Placemark><Placemark><name>410930074235901 — 310145-- SUS 0054 Dom</name><description>Location: nearby_outside; distance to watershed: 1.04 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410930074235901/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.39969444,41.15875,0</coordinates></Point></Placemark><Placemark><name>411100074303301 — 370415-- PW 4</name><description>Location: nearby_outside; distance to watershed: 1.66 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-411100074303301/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.50876958,41.18342902,0</coordinates></Point></Placemark></Folder></Folder><Style id="basin3"><LineStyle><color>ff7b8900</color><width>3</width></LineStyle><PolyStyle><color>257b8900</color><fill>1</fill></PolyStyle></Style><Folder><name>Clinton watershed</name><Placemark><name>Clinton contributing watershed</name><styleUrl>#basin3</styleUrl><description>NLDI upstream basin: 28.82 km². Reference USGS 01382300. Not a DEM delineation. Area difference from published drainage area: +5.99%.</description><MultiGeometry><Polygon><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-74.449701825,41.07412416700001,0 -74.451444632,41.073100210999996,0 -74.45192214,41.07260220500001,0 -74.452155425,41.07251982499999,0 -74.453561295,41.07154002099999,0 -74.45568763,41.071363851,0 -74.45855223,41.07090947999999,0 -74.459195672,41.071254117,0 -74.459613192,41.071508403,0 -74.460166839,41.071695836,0 -74.459870522,41.07384471000001,0 -74.459898211,41.074276954999995,0 -74.460058957,41.075099387,0 -74.460027868,41.076746014,0 -74.462884012,41.077642344,0 -74.46379704,41.079054684000006,0 -74.463892122,41.08046195499999,0 -74.464943396,41.08198715899999,0 -74.464917974,41.08311274100001,0 -74.465291698,41.083993194,0 -74.465052921,41.085733061999996,0 -74.464390633,41.086939463,0 -74.464257343,41.08791012799999,0 -74.461979952,41.089187335999995,0 -74.461011965,41.091100663000006,0 -74.461708686,41.09175837800001,0 -74.461742506,41.09218953,0 -74.462435894,41.093417018,0 -74.462344942,41.09393416699999,0 -74.461561846,41.095157443000005,0 -74.460371895,41.09767501799999,0 -74.457331796,41.096903995,0 -74.456136738,41.09727672499999,0 -74.45520661400002,41.097241645999986,0 -74.453582057,41.098199064999996,0 -74.454162022,41.099214874999994,0 -74.453695737,41.09973204199999,0 -74.45383711,41.09989057999999,0 -74.454126145,41.10083925599999,0 -74.45592112,41.101623242,0 -74.458177973,41.101196447,0 -74.457360147,41.10517643699999,0 -74.457576776,41.105800097,0 -74.45705907,41.107321366,0 -74.456807869,41.108206304,0 -74.458654199,41.109030183999984,0 -74.458829896,41.109972277,0 -74.457659689,41.11017101999999,0 -74.456416465,41.113008203,0 -74.454368974,41.114807216,0 -74.454154942,41.116764104000005,0 -74.454541813,41.11790036199999,0 -74.457044734,41.11873058399999,0 -74.456977671,41.11943123500001,0 -74.457265922,41.120662264,0 -74.456206894,41.120948851,0 -74.453267321,41.12066991,0 -74.45237517,41.120678976,0 -74.451984216,41.122423981000004,0 -74.452253567,41.122970774,0 -74.45230283,41.12450669,0 -74.453280211,41.125396280999986,0 -74.455132102,41.12611047000001,0 -74.454056245,41.127661679999996,0 -74.452836077,41.128020504,0 -74.452212507,41.129062841,0 -74.45164835,41.12946657599999,0 -74.451105724,41.130247817999994,0 -74.450541551,41.13065155,0 -74.449513014,41.13299932599999,0 -74.448558413,41.134214721,0 -74.449069626,41.135173630999994,0 -74.451284241,41.136264837,0 -74.45128291,41.13686507399999,0 -74.450317818,41.137555563,0 -74.450762796,41.13947308,0 -74.450207946,41.140107227,0 -74.449381057,41.140352019000005,0 -74.448325311,41.14159519500001,0 -74.447300633,41.14180710499999,0 -74.446729173,41.141861552999984,0 -74.446127022,41.14145634499999,0 -74.444786348,41.14130892099999,0 -74.443625335,41.14034048300001,0 -74.441893893,41.14050298499999,0 -74.440804487,41.14157491400001,0 -74.439041837,41.142265910000006,0 -74.436958561,41.141774971,0 -74.435366349,41.141600362999995,0 -74.43338801,41.14026907200001,0 -74.430846406,41.13998933700001,0 -74.431248557,41.141019858,0 -74.430586151,41.14443709099999,0 -74.429485456,41.14455847199999,0 -74.426680923,41.14443654199999,0 -74.424533628,41.144672410999995,0 -74.422003882,41.14452132,0 -74.421594441,41.144146943,0 -74.421621843,41.143017231,0 -74.421541219,41.14193770899999,0 -74.421704279,41.13985051400001,0 -74.420159331,41.13844520199999,0 -74.420111732,41.13768718699999,0 -74.418658511,41.13762325199999,0 -74.418194654,41.13790769599999,0 -74.417580878,41.139325504999995,0 -74.415611244,41.14094210299999,0 -74.414729332,41.141288958999986,0 -74.413988323,41.142558133999984,0 -74.413164554,41.14323834,0 -74.411389039,41.14393216900001,0 -74.409888679,41.145041773999985,0 -74.409066639,41.146310979,0 -74.407975602,41.147553268,0 -74.406126559,41.150007018,0 -74.405821501,41.150356351,0 -74.401846609,41.14940738799999,0 -74.400650664,41.148515188,0 -74.401145358,41.145605079,0 -74.397300553,41.144628878999995,0 -74.397852252,41.143337917,0 -74.396847044,41.142910355,0 -74.396605532,41.142572287,0 -74.39560066,41.14214369599999,0 -74.396395249,41.140889164,0 -74.396241686,41.140732748,0 -74.396580472,41.14042362099998,0 -74.397660236,41.1377689,0 -74.39799900200002,41.13745977,0 -74.397810731,41.137322094,0 -74.397708312,41.136573934999994,0 -74.396309416,41.135963662,0 -74.393319735,41.138685055,0 -74.39228052300001,41.139945817,0 -74.392030085,41.140008002,0 -74.391841531,41.139425491000004,0 -74.392372958,41.138515671,0 -74.393930251,41.136907895000014,0 -74.39551296,41.134475111,0 -74.396899757,41.13334077199999,0 -74.397067196,41.13248649599999,0 -74.397827103,41.13071142399999,0 -74.397084698,41.13053532799999,0 -74.396564964,41.13073917900001,0 -74.39542504400002,41.131358418,0 -74.394682147,41.131276763999985,0 -74.393610189,41.130674364,0 -74.39169565800002,41.129382241,0 -74.390634725,41.129041693,0 -74.391479465,41.12790435499999,0 -74.393793099,41.126092709999995,0 -74.394390019,41.12528765199999,0 -74.394631656,41.125216438,0 -74.395532427,41.12460441,0 -74.396633381,41.123311341,0 -74.397469387,41.122517347,0 -74.398931367,41.121456142999996,0 -74.400234498,41.120088279,0 -74.400827272,41.119630574000006,0 -74.401888843,41.11848219299999,0 -74.40216913000002,41.118100705,0 -74.402392926,41.11801244699999,0 -74.403676801,41.117059158,0 -74.405216125,41.115543919000004,0 -74.407280673,41.11417811700001,0 -74.407859277,41.11343113099999,0 -74.408387939,41.112993536,0 -74.409797948,41.11142917699999,0 -74.412248984,41.110082552,0 -74.41350268800001,41.108351642,0 -74.415011868,41.106634594000006,0 -74.416947058,41.104716876000005,0 -74.417479404,41.104508712999994,0 -74.417831873,41.10385710900001,0 -74.418235545,41.103263725999994,0 -74.418191986,41.102530054000006,0 -74.416023444,41.101387951999996,0 -74.415046886,41.100683941999996,0 -74.414323781,41.100390909,0 -74.415557773,41.09935489499999,0 -74.416518128,41.098716545,0 -74.417447285,41.098029856,0 -74.418763872,41.097155202,0 -74.419091246,41.096398314999995,0 -74.419233613,41.095679435,0 -74.421451421,41.093389249999994,0 -74.422198589,41.092246939,0 -74.422997006,41.09159039199999,0 -74.42397985,41.090618586,0 -74.4255747,41.089311584,0 -74.428625028,41.085750866,0 -74.430499555,41.08462082700001,0 -74.432164743,41.08338389200001,0 -74.433602342,41.08217334999999,0 -74.435331056,41.081028952,0 -74.437703782,41.079259423,0 -74.438200817,41.078773390999984,0 -74.438424444,41.07868507299999,0 -74.438682251,41.07826319499999,0 -74.439706209,41.07734352799999,0 -74.441269621,41.077066524,0 -74.442228344,41.077138889,0 -74.443508029,41.07528245300001,0 -74.444359574,41.075030260000005,0 -74.446046,41.07403963800001,0 -74.446775184,41.07423795500001,0 -74.449701825,41.07412416700001,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark><Folder><name>USGS stations — inside and within 2 km</name><Placemark><name>01368823 — Lake Lookout Brook Trib near Kempe NJ</name><description>Location: nearby_outside; distance to watershed: 1.90 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01368823/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.42263889,41.16180556,0</coordinates></Point></Placemark><Placemark><name>01382090 — Pacock Bk near Highland Lakes NJ</name><description>Location: nearby_outside; distance to watershed: 1.78 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382090/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4725,41.13638889,0</coordinates></Point></Placemark><Placemark><name>01382278 — Mossmans Brook tributary near Uttertown NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382278/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4261111,41.12194444,0</coordinates></Point></Placemark><Placemark><name>01382280 — Mossmans Brook near Uttertown NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382280/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4344444,41.10694444,0</coordinates></Point></Placemark><Placemark><name>01382300 — Clinton Reservoir near Newfoundland NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382300/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4475,41.07444444,0</coordinates></Point></Placemark><Placemark><name>01382310 — Clinton Brook at La Rue Road at Newfoundland NJ</name><description>Location: nearby_outside; distance to watershed: 1.66 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382310/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.44027778,41.0597222,0</coordinates></Point></Placemark><Placemark><name>01382830 — Belcher C at Dockerty Hollow Rd nr West Milford NJ</name><description>Location: nearby_outside; distance to watershed: 1.26 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382830/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.3916667,41.11,0</coordinates></Point></Placemark><Placemark><name>01382870 — Belcher C at Stowaway Road at W Milford NJ</name><description>Location: nearby_outside; distance to watershed: 1.06 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382870/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.3797222,41.12416667,0</coordinates></Point></Placemark><Placemark><name>01382880 — Belcher Creek trib at West Milford NJ</name><description>Location: nearby_outside; distance to watershed: 1.41 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382880/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.3758333,41.135,0</coordinates></Point></Placemark><Placemark><name>410320074273801 — 310141-- SUS 0136 Dom</name><description>Location: nearby_outside; distance to watershed: 1.72 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410320074273801/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.45961111,41.05541667,0</coordinates></Point></Placemark><Placemark><name>410332074275401 — 310166-- Institutional 1</name><description>Location: nearby_outside; distance to watershed: 1.42 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410332074275401/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.46460022,41.05898603,0</coordinates></Point></Placemark><Placemark><name>410615074240401 — 310012-- Crescent Pk 1</name><description>Location: nearby_outside; distance to watershed: 1.10 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410615074240401/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.40070921,41.104263,0</coordinates></Point></Placemark><Placemark><name>410639074233201 — 310057-- Concord Rd-Bald Eagle</name><description>Location: nearby_outside; distance to watershed: 1.18 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410639074233201/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.39182003,41.11092955,0</coordinates></Point></Placemark><Placemark><name>410930074235901 — 310145-- SUS 0054 Dom</name><description>Location: nearby_outside; distance to watershed: 1.04 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410930074235901/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.39969444,41.15875,0</coordinates></Point></Placemark></Folder></Folder><Style id="basin4"><LineStyle><color>ff2828c6</color><width>3</width></LineStyle><PolyStyle><color>252828c6</color><fill>1</fill></PolyStyle></Style><Folder><name>Echo Lake watershed</name><Placemark><name>Echo Lake contributing watershed</name><styleUrl>#basin4</styleUrl><description>NLDI upstream basin: 11.49 km². Reference USGS 01382400. Not a DEM delineation. Area difference from published drainage area: +1.98%.</description><MultiGeometry><Polygon><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-74.410387724,41.047354903999995,0 -74.416477843,41.048236731,0 -74.415941928,41.049387331,0 -74.414984928,41.051076675,0 -74.41521596400001,41.051726583,0 -74.414604913,41.05516411599999,0 -74.415348363,41.057249258,0 -74.415522771,41.05784000499999,0 -74.41582675,41.058701189999994,0 -74.415676532,41.064706986,0 -74.414493328,41.067068588,0 -74.41408990600002,41.068647006999996,0 -74.41314712,41.070159469000004,0 -74.412767712,41.071660388000005,0 -74.412102369,41.07346874600001,0 -74.41071632600001,41.075702013,0 -74.408156196,41.081957123,0 -74.407101231,41.08319785599999,0 -74.406762765,41.08350699500001,0 -74.406507282,41.083920653,0 -74.405820009,41.084535001999996,0 -74.405562621,41.084583087000006,0 -74.404868911,41.08625876100001,0 -74.402140557,41.089410465,0 -74.400957655,41.09143379699999,0 -74.398910906,41.093468491,0 -74.398109595,41.094300614,0 -74.397934618,41.09415769200001,0 -74.397332707,41.093029204,0 -74.39621942,41.092487313,0 -74.395115224,41.09323504299999,0 -74.394527789,41.092988867,0 -74.392008602,41.09160216800001,0 -74.391507913,41.091114156,0 -74.391040693,41.090425642,0 -74.38995254400001,41.090323102,0 -74.388198181,41.088686650999996,0 -74.386700814,41.088210635,0 -74.385541516,41.08718585799999,0 -74.386434317,41.08431443199999,0 -74.386784999,41.084374845,0 -74.386947316,41.08385276700001,0 -74.387271943,41.082808611000004,0 -74.386152732,41.082323587999994,0 -74.386266144,41.081810274999995,0 -74.386714033,41.08068530000001,0 -74.386263705,41.07947863099999,0 -74.386454224,41.078995794,0 -74.386165709,41.07860553399999,0 -74.385199057,41.07848410599999,0 -74.384219625,41.077921079,0 -74.38463515,41.07465376199999,0 -74.384878615,41.07387065500001,0 -74.38432515,41.073682895999994,0 -74.38427303600001,41.073033636000005,0 -74.383679061,41.07219646299999,0 -74.383424125,41.07141986099999,0 -74.38193211,41.071633276,0 -74.379190859,41.069590178000006,0 -74.38026485,41.068029554999995,0 -74.381288718,41.06729824599999,0 -74.38228190500001,41.06575592499999,0 -74.38149045000002,41.064477538,0 -74.382531332,41.063152933,0 -74.38242138400001,41.062058618,0 -74.382813719,41.06031391599999,0 -74.383262891,41.05966726599999,0 -74.384733107,41.05866912199999,0 -74.385215629,41.058527758000004,0 -74.385887939,41.057831470999986,0 -74.385864693,41.056439499999996,0 -74.38787085,41.055257619,0 -74.388050855,41.05363856299999,0 -74.387889805,41.05348834200001,0 -74.387943683,41.052795055999994,0 -74.387169526,41.051164109,0 -74.387488975,41.048316498999995,0 -74.387103057,41.04740453899999,0 -74.388363507,41.04570637,0 -74.389754068,41.04481482999999,0 -74.389893223,41.04295564400001,0 -74.389733365,41.042133146999994,0 -74.389787216,41.041439867,0 -74.394276376,41.042143641,0 -74.396217752,41.041242766,0 -74.398253588,41.041523683,0 -74.398927253,41.042921291999996,0 -74.398282978,41.044141276,0 -74.398193106,41.044950803999996,0 -74.397922156,41.04547024899999,0 -74.399302196,41.04594968100001,0 -74.399357278,41.04690556799999,0 -74.400945529,41.04831244999998,0 -74.401479651,41.047205606999995,0 -74.402949358,41.04670892699999,0 -74.406072817,41.04776137000001,0 -74.406119981,41.048910309,0 -74.406553863,41.04927828,0 -74.407145754,41.04926740399999,0 -74.408933131,41.04802613899999,0 -74.408942767,41.046545392000006,0 -74.409278934,41.04644751200001,0 -74.409690018,41.046703052,0 -74.409817901,41.047090299,0 -74.410387724,41.047354903999995,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark><Folder><name>USGS stations — inside and within 2 km</name><Placemark><name>01382360 — Kanouse Bk at Newfoundland NJ</name><description>Location: nearby_outside; distance to watershed: 1.12 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382360/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4297222,41.0472222,0</coordinates></Point></Placemark><Placemark><name>01382392 — Echo Lake 4800' upstream of dam near  Macopin NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382392/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4097222,41.06194444,0</coordinates></Point></Placemark><Placemark><name>01382396 — Echo Lake 1500' upstream of dam near  Macopin NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382396/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.41,41.05305556,0</coordinates></Point></Placemark><Placemark><name>01382400 — Echo Lk near Charlotteburg NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382400/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4069444,41.04944444,0</coordinates></Point></Placemark><Placemark><name>01382410 — Macopin River at Echo Lake NJ</name><description>Location: nearby_outside; distance to watershed: 0.05 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382410/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4066667,41.04777778,0</coordinates></Point></Placemark><Placemark><name>01382430 — Mathews Brook diversion near Macopin NJ</name><description>Location: inside; distance to watershed: 0.00 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382430/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4055556,41.0486111,0</coordinates></Point></Placemark><Placemark><name>01382450 — Macopin R at Macopin Re NJ</name><description>Location: nearby_outside; distance to watershed: 1.94 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382450/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.4083333,41.0258333,0</coordinates></Point></Placemark><Placemark><name>01382830 — Belcher C at Dockerty Hollow Rd nr West Milford NJ</name><description>Location: nearby_outside; distance to watershed: 1.82 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01382830/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.3916667,41.11,0</coordinates></Point></Placemark><Placemark><name>01385550 — Upper Mt Glen Lake near center nr Upper Macopin NJ</name><description>Location: nearby_outside; distance to watershed: 1.02 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-01385550/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.36777778,41.07277778,0</coordinates></Point></Placemark><Placemark><name>410208074233501 — 310147-- SUS 0253 Dom</name><description>Location: nearby_outside; distance to watershed: 0.76 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410208074233501/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.39283333,41.03488889,0</coordinates></Point></Placemark><Placemark><name>410507074222901 — 310143-- SUS 0122 Dom</name><description>Location: nearby_outside; distance to watershed: 1.03 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410507074222901/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.37366667,41.08475,0</coordinates></Point></Placemark><Placemark><name>410545074224801 — 310054-- 1 Of 3</name><description>Location: nearby_outside; distance to watershed: 1.04 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410545074224801/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.37959721,41.09592972,0</coordinates></Point></Placemark><Placemark><name>410615074240401 — 310012-- Crescent Pk 1</name><description>Location: nearby_outside; distance to watershed: 1.13 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410615074240401/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.40070921,41.104263,0</coordinates></Point></Placemark><Placemark><name>410639074233201 — 310057-- Concord Rd-Bald Eagle</name><description>Location: nearby_outside; distance to watershed: 1.92 km.
+rainfall_assessment: No valid precipitation IV in seven-day query; historical availability may differ
+observed_modal_intervals_minutes: 
+freshest_observation_age_minutes: 
+operational_flag: No recent valid IV; not demonstrated for near-real-time use
+transmission_frequency: Unknown for this station; USGS general guidance often hourly, not a site-specific finding
+publication_latency: Unknown; latest observation age is not publication latency
+usgs_url: https://waterdata.usgs.gov/monitoring-location/USGS-410639074233201/</description><Point><altitudeMode>clampToGround</altitudeMode><coordinates>-74.39182003,41.11092955,0</coordinates></Point></Placemark></Folder></Folder></Document></kml>
